@@ -1,0 +1,22 @@
+%<!-- version 7.13.6 -->
+Πόροι των Microsoft<SUP>&#174;</SUP> Windows<SUP>&#174;</SUP> 98<!-- note to the localizers:  the string &#174; is the html symbol for the registered symbol.  you may need to move or delete it.-->
+%|%
+Επεκτείνετε τις γνώσεις σας για τα Windows με το εκπαιδευτικό υλικό της Microsoft Press<SUP>&#174;</SUP>.
+<p>
+<b>Είστε συνδεδεμένοι με το Internet;</b><br>
+Κάντε κλικ σε οποιαδήποτε από τις ακόλουθες συνδέσεις για τοποθεσίες σχετικές με τα Windows:
+<p><font size=2>
+<b><a id=a3 onmouseover="over(3)" onmouseout="out(3)" onfocus="over(3)" onblur="out(3)" href="http://www.microsoft.com/isapi/redir.dll?prd=msft" target="_blank">Microsoft Corporation</a></b><br>
+<b><a id=a4 onmouseover="over(4)" onmouseout="out(4)" onfocus="over(4)" onblur="out(4)" href="http://www.microsoft.com/isapi/redir.dll?prd=ie&ar=inews" target="_blank">Microsoft Internet Explorer</a></b><br>
+<b><a id=a5 onmouseover="over(5)" onmouseout="out(5)" onfocus="over(5)" onblur="out(5)" href="http://www.microsoft.com/isapi/redir.dll?prd=support&ar=w98" target="_blank">Υπηρεσίες υποστήριξης προϊόντων της Microsoft</a></b><br>
+</font>
+%|%
+&nbsp;<br><i>Microsoft Windows 98 Starts Here:<SUP>&#153;</SUP></i>, το βήμα προς βήμα εκπαιδευτικό πρόγραμμα πολυμέσων για τα Windows 98!
+%|%
+&nbsp;<br><b>Microsoft Press</b>: πόροι και δημοσιεύσεις για τις ανάγκες όλων των χρηστών!
+%|%
+Περιεχόμενα
+%|%
+Κλείσιμο
+%|%Περιήγηση στα Windows 98%
+

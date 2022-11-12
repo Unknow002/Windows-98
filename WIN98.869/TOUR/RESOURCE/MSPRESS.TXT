@@ -1,0 +1,29 @@
+%<!--localized version of MSPress More Resources-->
+<a id=a1 href="http://www.microsoft.com/isapi/redir.dll?prd=mspress" target="_blank" onmouseover="over(1)" onmouseout="out(1)" onfocus="over(1)" onblur="out(1)">Η Microsoft Press<sup>&#174;</sup></a> είναι η πηγή ενημερωμένων και τεχνικά σωστών βιβλίων και εκπαιδευτικού υλικού σχετικά με τα προϊόντα της Microsoft.<br>
+<span style="line-height:6pt;">&nbsp;<br></span>
+
+Όπως στο βιβλίο <i>Microsoft Windows 98 Starts Here&#153;</i>, όλοι οι τίτλοι της σειράς
+<b>Starts Here</b> της Microsoft Press προσφέρουν ό,τι καλύτερο υπάρχει σχετικά με την αλληλεπιδραστική εκπαίδευση για τα προϊόντα της Microsoft Press, συμπεριλαμβανομένων των Microsoft Windows 95, Microsoft Windows NT<sup>&#174;</sup> Workstation 4.0 και του
+Microsoft Office 97.<br>
+<span style="line-height:6pt;">&nbsp;<br></span>
+
+Το βιβλίο <i>Running Microsoft Windows 98</i> παρέχει σαφείς, περιεκτικές απαντήσεις για τα Windows 98.<br>
+<span style="line-height:6pt;">&nbsp;<br></span>
+
+Το βιβλίο <i>Microsoft Windows 98 At a Glance</i>, ένας εικονογραφημένος οδηγός αναφοράς, σας δείχνει "με μια ματιά" πώς να εκτελείτε διάφορες εργασίες.<br>
+<span style="line-height:6pt;">&nbsp;<br></span>
+
+Το βιβλίο <i>Microsoft Windows 98 Step by Step</i> προσφέρει εκπαίδευση σύμφωνα με τους ρυθμούς σας με εύκολα μαθήματα,
+ασκήσεις και αρχεία πρακτικής εξάσκησης σε CD.<br>
+<span style="line-height:6pt;">&nbsp;<br></span>
+
+Το βιβλίο <i>Field Guide to Microsoft Windows 98</i> είναι ένας ολοκληρωμένος, φορητός οδηγός σχεδιασμένος για γρήγορη αναζήτηση και γρήγορες απαντήσεις.<br>
+<span style="line-height:6pt;">&nbsp;<br></span>
+
+Τα βιβλία της Microsoft Press έχουν μεταφραστεί σε περισσότερες από 25 <b><a id=a2 href="http://www.microsoft.com/isapi/redir.dll?prd=mspress&ar=win98tour&sba=intl" target="_blank" onmouseover="over(2)" onmouseout="out(2)" onfocus="over(2)" onblur="out(2)">
+γλώσσες</a></b>, για μια πλήρη λίστα επισκεφτείτε την τοποθεσία Web ή επικοινωνήστε με τη θυγατρική της Microsoft στην περιοχή σας.
+%|%
+Πίσω
+%|%
+Κλείσιμο
+%|%Περιήγηση στα Windows 98%
