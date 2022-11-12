@@ -1,0 +1,199 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="Microsoft Developer Studio">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-7">
+<TITLE>Document Title</TITLE>
+</HEAD>
+<BODY  scroll=no topmargin=0 leftmargin=0 bgcolor=white>
+<STYLE>
+<!--
+.not {text-decoration: none; color: #0066ff;}
+.HEY	{text-decoration: none; }
+
+A:link, A:visited, A:active {text-decoration:none; 
+				color: #0066ff; 
+				font-family: Verdana, Helvetica, Arial;
+				font-size: 15px;}
+
+A:visited {text-decoration:none; 
+				color: #000000; 
+				font-family: Verdana, Helvetica, Arial;
+				font-size: 15px;}
+
+
+BODY {font-family: Verdana, Helvetica, Arial;}
+-->
+</STYLE> 
+
+
+<SCRIPT language="javascript">
+
+
+function DoRoll(){
+	var what = window.event.srcElement;
+	if ((what.id == "")){
+		what.style.textDecoration="underline";
+	}
+	window.status = what.id ;
+}
+
+function UndoRoll(){
+	var what = window.event.srcElement;
+	what.style.textDecoration="none";
+}
+
+function OpenHHelp(helpfile, section){
+	Hhopen1.OpenHelp(helpfile, section)
+}
+
+function Ch(){
+	var theImage = window.event.srcElement;
+	theImage.src = "images/rdbttnor.gif";
+}
+
+function ChD(){
+		var theImage = window.event.srcElement;
+		theImage.src = "images/rdbttn.gif";
+}
+	
+function ChDD(){
+	var theImage = window.event.srcElement;
+	theImage.src = "images/rdbttndn.gif";
+	top.location.href = "../default.htm";
+}
+</SCRIPT>
+
+<center>
+<TABLE cellspacing=0 cellpadding=0 border=0 width=640 height=480 background="images/bgWin98.jpg">
+	
+
+	<TR>
+		<TD align = left>
+			
+
+
+<DIV  style="position: relative; left: 10; top: 60;" id=easier>
+	<TABLE cellspacing=0 cellpadding=0 border=1 bordercolor=black width=150>
+		<TR>
+			<TD align=center background="images/easierBg.jpg">
+				<div id=easier style="font-weight: bold; font-size:17px;" >Πιο εύχρηστα</div>
+			</TD>
+		</TR>
+	</TABLE>
+
+	<div style="position: relative; left: 10px;" onmouseover='DoRoll()' onmouseout='UndoRoll()' >
+	<a href='javascript:OpenHHelp("update.chm","ie4_integration_mode.htm")' >Επιφάνεια εργασίας με μορφή Web</a><br>
+	<a href='javascript:OpenHHelp("windows.chm","mds_overview.htm")' >Πολλαπλές οθόνες</a><br>
+	<a href='javascript:OpenHHelp("whatnew.chm","idh_whatnew_onnow.htm")'>Διαχείριση ενέργειας</a><br>
+	<a href='javascript:OpenHHelp("windows.chm","app_usb.htm")' >Βελτιωμένο Plug & Play</a><br>
+	<a href='javascript:OpenHHelp("access.chm","access_use_wizard.htm")' >Επιλογές για άτομα με ειδικές ανάγκες</a><br>
+	<a href='javascript:OpenHHelp("htmhlp98.chm","htmlhelp_finding_topics.htm")' >Περιεκτική βοήθεια</a><br>
+	</div>
+</DIV>
+
+
+<DIV  style="position: relative; left: 320; top: -60;" id="faster">
+	<TABLE cellspacing=0 cellpadding=0 border=1 bordercolor=black width=150>
+		<TR>
+			<TD align=center background="images/fasterBg.jpg">
+				<div id=header style="font-weight: bold; font-size:17px;" >Πιο γρήγορα</div>
+			</TD>
+		</TR>
+	</TABLE>
+
+	<div style="position: relative; left: 10px;"onmouseover='DoRoll()' onmouseout='UndoRoll()' >
+	<a href='javascript:OpenHHelp("iexplore.chm","IEGETSRT.htm")' >Πρόσβαση στο Internet</a><br>
+	<a href='javascript:OpenHHelp("windows.chm","app_tuneup_wizard.htm")' >Οδηγός συντήρησης</a><br>
+	<a href='javascript:OpenHHelp("windows.chm","app_fat32_convert.htm")'>Μετατροπέας μονάδας σκληρού δίσκου</a><br>
+	<a href='javascript:OpenHHelp("windows.chm","app_defrag.htm")' >Εκκίνηση προγραμμάτων</a><br>
+	</div>
+	
+</DIV>
+
+
+<DIV  style="position: relative; left: 100; top: -26; " id="web">
+	<TABLE cellspacing=0 cellpadding=0 border=1 bordercolor=black width=230>
+		<TR>
+			<TD align=center background="images/webBg.jpg">
+				<div ID=header style="font-weight: bold; Font-size:17px;">Ενοποίηση με το Web</div>
+			</TD>
+		</TR>
+	</TABLE>
+
+	<div style="position: relative; left: 10px;" onmouseover='DoRoll()' onmouseout='UndoRoll()' >
+	<a href='javascript:OpenHHelp("update.chm","ie4_new_features.htm")' >Internet Explorer 4</a><br>
+	<a href='javascript:OpenHHelp("windows.chm","connecting_to_the_internet.htm")' >Οδηγός σύνδεσης</a><br>
+	<a href='javascript:OpenHHelp("update.chm","ie4_whatis_active_desktop.htm")'>Active Desktop</a><br>
+	<a href='javascript:OpenHHelp("iexplore.chm","channels_over.htm")' >Κανάλια</a><br>
+	<a href='javascript:OpenHHelp("msimn.chm","cool_mail.htm")' >Ενσωματωμένο E-mail</a><br>
+	<a href='javascript:OpenHHelp("whatnew.chm","idh_whatnew_netmeeting.htm")' >Ηλεκτρονικές διασκέψεις</a><br>
+	<a href='javascript:OpenHHelp("whatnew.chm","idh_whatnew_frontpage.htm")' >Δημιουργία ιστοσελίδων</a><br>
+	</div>
+	
+</DIV>
+
+
+
+<DIV  style="position: relative; left: 340; top: -202; " id="reliable">
+	<TABLE cellspacing=0 cellpadding=0 border=1 bordercolor=black width=150>
+		<TR>
+			<TD align=center background="images/moreBg.jpg">
+				<div ID=header style="font-weight: bold; font-size:17px;">Πιο αξιόπιστα</div>
+			</TD>
+		</TR>
+	</TABLE>
+
+	<div style="position: relative; left: 10px;" onmouseover='DoRoll()' onmouseout='UndoRoll()' >
+	<a href='javascript:OpenHHelp("windows.chm","keeping_windows_updated.htm")' >Windows Update</a><br>
+	<a href='javascript:OpenHHelp("windows.chm","app_sfc.htm")'  >Έλεγχος αρχείων συστήματος</a><br>
+	<a href='javascript:OpenHHelp("windows.chm","app_scandisk.htm")'>Εντοπισμός σφαλμάτων</a><br>
+	<a href='javascript:OpenHHelp("windows.chm","app_backup.htm")' >Αντίγραφα ασφαλείας και επαναφορά</a><br>
+	</div>
+	
+	
+</DIV>
+
+<DIV  style="position: relative; left: 355; top: -195; height: 50; " id="web">
+	<TABLE cellspacing=0 cellpadding=0 border=1 bordercolor=black width=190>
+		<TR>
+			<TD align=center background="images/entertBg.jpg"> 
+				<div ID=header style="font-weight: bold; font-size:17px;">Πιο διασκεδαστικά</div>
+			</TD>
+		</TR>
+	</TABLE>
+
+	<div style="position: relative; left: 10px;" onmouseover='DoRoll()' onmouseout='UndoRoll()'>
+	
+	<a href='javascript:OpenHHelp("whatnew.chm","idh_whatnew_hardware.htm")' >Υποστήριξη νέου υλικού</a><br>
+	<a href='javascript:OpenHHelp("whatnew.chm","idh_whatnew_directx.htm")' >Βελτιωμένα πολυμέσα</a><br>
+	<a href='javascript:OpenHHelp("windows.chm","app_netshow.htm")' >Ηλεκτρονική προβολή εκπομπών</a><br>
+	<a href='javascript:OpenHHelp("windows.chm","changing_desktop_theme.htm")'>Θέματα για την επιφάνεια εργασίας</a><br>
+	</div>
+</DIV>
+
+
+
+
+<DIV ID=new style="position: absolute; top: 380; width:630; height: 125; ">
+	<div style="font-style: italic; color: #9BD2FF; font-size: 45px; font-weight: 900;">Τι νέο υπάρχει στα</div>
+		<div style="position:relative; top: -23; left: 180; font-style: italic; color: #65A2FF; font-size: 55px; font-weight: 900;">Windows 98</div>
+</div>
+
+<IMG style="position: relative; top: -530; left: 590;" SRC="images/rdbttn.gif" onmouseover='Ch()' onmouseout='ChD()' onclick='ChDD()'>
+
+
+
+</TD>
+
+
+</TABLE>
+</center>
+<OBJECT ID="Hhopen1" WIDTH=12 HEIGHT=12
+     CLASSID="CLSID:130D7743-5F5A-11D1-B676-00A0C9697233">
+        <PARAM NAME="_Version" VALUE="65536">
+        <PARAM NAME="_ExtentX" VALUE="318">
+        <PARAM NAME="_ExtentY" VALUE="318">
+        <PARAM NAME="_StockProps" VALUE="0">
+ </OBJECT>
+</BODY>
+</HTML>
