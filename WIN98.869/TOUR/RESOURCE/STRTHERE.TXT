@@ -1,0 +1,30 @@
+%<!-- version 7.13.6 -->
+<!-- updated localized version of Starts Here 11/18/97 -->
+Microsoft Windows 98 Starts Here<sup>&#153;</sup>
+%|%
+Ï åðßóçìïò ïäçãüò áëëçëåðéäñáóôéêÞò åêðáßäåõóçò ãéá ôá Microsoft Windows 98
+%|%
+ÅÜí Ý÷åôå åîåñåõíÞóåé ôéò åíüôçôåò <i>ÃåíéêÞ åðéóêüðçóç ôùí Windows 98</i> Þ <i>ÂáóéêÜ óôïé÷åßá ãéá õðïëïãéóôÝò</i>, åßóôå Ýôïéìïé íá óõíå÷ßóåôå ôçí åêðáßäåõóÞ óáò ìå ôï ðëçñïöïñéáêü êáé åý÷ñçóôï âéâëßï <b><i>Microsoft Windows 98 Starts Here</i></b>. Ç ßäéá áîéüðéóôç ðçãÞ, ç Microsoft Press<SUP>&#174;</SUP>, óáò ðáñÝ÷åé üëá áõôÜ ôá ðñïãñÜììáôá åêìÜèçóçò.<br>
+<span style="line-height:6pt;">&nbsp;<br></span>
+
+Ôï CD-ROM ôïõ âéâëßïõ <i>The Microsoft Windows 98 Starts Here</i> ðñïóöÝñåé åêôåôáìÝíç åêðáßäåõóç ðïëõìÝóùí ãéá ôá Microsoft
+Windows 98. ×ñçóéìïðïéþíôáò áóêÞóåéò âÞìá ðñïò âÞìá êáé êïõßæ ðñïóùðéêÞò áîéïëüãçóçò, ìáèáßíåôå åíþ åñãÜæåóôå óôï ðñáãìáôéêü ðåñéâÜëëïí ôùí Windows.<br>
+<span style="line-height:6pt;">&nbsp;<br></span>
+
+ÊÜíôå êëéê óôï âéâëßï <a id=a1 href="http://www.microsoft.com/isapi/redir.dll?prd=mspress&ar=win98tour&sba=win98demo" target="_blank" onmouseover="over(1)" onmouseout="out(1)" onfocus="over(1)" onblur="out(1)"><i>Microsoft
+Windows 98 Starts Here</i></a> (ÁããëéêÞ Ýêäïóç) ãéá íá äåßôå ìéá ðåñéåêôéêÞ åðéóêüðçóç êáé ìéá óýíôïìç åðßäåéîç.<br>
+<span style="line-height:6pt;">&nbsp;<br></span>
+
+Ãéá íá âñåßôå ìéá åôáéñåßá äéáíïìÞò ôçò óåéñÜò Microsoft Press Starts Here óôç ÷þñá óáò, êÜíôå êëéê 
+<a id=a2 href="http://www.microsoft.com/isapi/redir.dll?prd=mspress&ar=win98tour&sba=shintl" target="_blank" onmouseover="over(2)" onmouseout="out(2)" onfocus="over(2)" onblur="out(2)">åäþ</a>.
+%|%
+Ðßóù
+%|%
+Êëåßóéìï
+%|%ÐåñéÞãçóç óôá Windows 98%
+
+
+
+
+
+
