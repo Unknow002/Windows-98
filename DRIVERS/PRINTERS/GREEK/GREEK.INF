@@ -1,0 +1,158 @@
+; GREEK.INF
+;
+; List of supported Greek printers for Star and Panasonic
+;
+
+[Version]
+;CatalogFile=msprint3.cat
+Signature="$CHICAGO$"
+Class=Printer
+ClassGUID={4d36e979-e325-11ce-bfc1-08002be10318}
+Provider=%MS%
+;LayoutFile=layout.inf, layout1.inf, layout2.inf
+
+;
+; The Manufacturer section lists all of the manufacturers that we will
+; display in the Dialog box
+
+[Manufacturer]
+"Epson"
+"Panasonic"
+"Star"
+
+;
+; Model sections. Each section here corresponds with an entry listed in the
+; [Manufacturer] section, above. The models will be displayed in the order
+; that they appear in the INF file.
+;
+; Each model lists a variation of its own name as a compatible ID. This
+; is done primarily as an optimization during upgrade.
+;
+
+[Epson]
+"Epson FX-870 (Greek)"            = EPSON9GK.DRV,Epson_FX-870_(Greek)
+"Epson FX-1170 (Greek)"           = EPSON9GK.DRV,Epson_FX-1170_(Greek)
+"Epson LQ-100 (Greek)"            = ESCP2EGK.DRV,Epson_LQ-100_(Greek)
+"Epson LQ-150 (Greek)"            = ESCP2EGK.DRV,Epson_LQ-150_(Greek)
+"Epson LQ-300 (Greek)"            = ESCP2EGK.DRV,Epson_LQ-300_(Greek)
+"Epson LQ-570 (Greek)"            = ESCP2EGK.DRV,Epson_LQ-570_(Greek)
+"Epson LQ-570+ (Greek)"           = ESCP2EGK.DRV,Epson_LQ-570+_(Greek)
+"Epson LQ-870 (Greek)"            = ESCP2EGK.DRV,Epson_LQ-870_(Greek)
+"Epson LQ-1070 (Greek)"           = ESCP2EGK.DRV,Epson_LQ-1070_(Greek)
+"Epson LQ-1070+ (Greek)"          = ESCP2MS.DRV,Epson_LQ-1070+_(Greek)
+"Epson LQ-1170 (Greek)"           = ESCP2EGK.DRV,Epson_LQ-1170_(Greek)
+"Epson LX-100 (Greek)"            = EPSON9GK.DRV,Epson_LX-100_(Greek)
+"Epson LX-300 (Greek)"            = EPSON9GK.DRV,Epson_LX-300_(Greek)
+
+[Panasonic]
+"Panasonic KX-P1081 (Greek)"      = PAN9GR.DRV,Panasonic_KX-P1081_(Greek)
+"Panasonic KX-P1121 (Greek)"      = PAN24GR.DRV,Panasonic_KX-P1121_(Greek)
+"Panasonic KX-P1123 (Greek)"      = PAN24GR.DRV,Panasonic_KX-P1123_(Greek)
+"Panasonic KX-P1124 (Greek)"      = PAN24GR.DRV,Panasonic_KX-P1124_(Greek)
+"Panasonic KX-P1124i (Greek)"     = PAN24GR.DRV,Panasonic_KX-P1124i_(Greek)
+"Panasonic KX-P1150 (Greek)"      = PAN9GR.DRV,Panasonic_KX-P1150_(Greek)
+"Panasonic KX-P1170 (Greek)"      = PAN9GR.DRV,Panasonic_KX-P1170_(Greek)
+"Panasonic KX-P1180 (Greek)"      = PAN9GR.DRV,Panasonic_KX-P1180_(Greek)
+"Panasonic KX-P1624 (Greek)"      = PAN24GR.DRV,Panasonic_KX-P1624_(Greek)
+"Panasonic KX-P1654 (Greek)"      = PAN24GR.DRV,Panasonic_KX-P1654_(Greek)
+"Panasonic KX-P1695 (Greek)"      = PAN9GR.DRV,Panasonic_KX-P1695_(Greek)
+"Panasonic KX-P2023 (Greek)"      = PAN24GR.DRV,Panasonic_KX-P2023_(Greek)
+"Panasonic KX-P2180 (Greek)"      = PAN9GR.DRV,Panasonic_KX-P2180_(Greek)
+"Panasonic KX-P2123 (Greek)"      = PAN24GR.DRV,Panasonic_KX-P2123_(Greek)
+"Panasonic KX-P2124 (Greek)"      = PAN24GR.DRV,Panasonic_KX-P2124_(Greek)
+"Panasonic KX-P2624 (Greek)"      = PAN24GR.DRV,Panasonic_KX-P2624_(Greek)
+
+[Star]
+"Star LC-15 (Greek)"              = STAR9GK.DRV,Star_LC-15_(Greek)
+"Star LC-20 (Greek)"              = STAR9GK.DRV,Star_LC-20_(Greek)
+"Star LC-90 (Greek)"              = STAR9GK.DRV,Star_LC-90_(Greek)
+"Star LC-100 Colour (Greek)"      = STAR9GK.DRV,Star_LC-100_Colour_(Greek)
+"Star LC-240 (Greek)"             = STAR24GK.DRV,Star_LC-240_(Greek)
+"Star LC-240C (Greek)"            = STAR24GK.DRV,Star_LC-240C_(Greek)
+"Star LC24-100 (Greek)"           = STAR24GK.DRV,Star_LC24-100_(Greek)
+"Star XB24-200 (Greek)"           = STAR24GK.DRV,Star_XB24-200_(Greek)
+"Star XB24-250 (Greek)"           = STAR24GK.DRV,Star_XB24-250_(Greek)
+"Star ZA-200 (Greek)"             = STAR9GK.DRV,Star_ZA-200_(Greek)
+"Star ZA-250 (Greek)"             = STAR9GK.DRV,Star_ZA-250_(Greek)
+
+;
+; Installer Sections
+;
+; These sections control file installation, and reference all files that
+; need to be copied. The section name will be assumed to be the driver
+; file, unless there is an explicit DriverFile section listed.
+;
+
+[ESCP2EGK.DRV]
+CopyFiles=@ESCP2EGK.DRV,UNICLR
+DataSection=UNI_DATA
+
+[EPSON9GK.DRV]
+CopyFiles=@EPSON9GK.DRV,UNICLR
+DataSection=UNI_DATA
+
+[PAN24GR.DRV]
+CopyFiles=@PAN24GR.DRV,UNICLR
+DataSection=UNI_DATA
+
+[PAN9GR.DRV]
+CopyFiles=@PAN9GR.DRV,UNICLR
+DataSection=UNI_DATA
+
+[STAR24GK.DRV]
+CopyFiles=@STAR24GK.DRV,UNICLR
+DataSection=UNI_DATA
+
+[STAR9GK.DRV]
+CopyFiles=@STAR9GK.DRV,UNICLR
+DataSection=UNI_DATA
+
+; Copy Sections
+;
+; Lists of files that are actually copied. These sections are referenced
+; from the installer sections, above. Only create a section if it contains
+; two or more files (if we only copy a single file, identify it in the
+; installer section, using the @filename notation) or if it's a color
+; profile (since the DestinationDirs can only handle sections, and not
+; individual files).
+;
+
+[FINSTALL]
+FINSTALL.DLL
+FINSTALL.HLP
+
+[UNI]
+UNIDRV.DLL
+UNIDRV.HLP
+ICONLIB.DLL
+
+[UNICLR]
+UNIDRV.DLL
+UNIDRV.HLP
+DMCOLOR.DLL
+ICONLIB.DLL
+
+;
+; Data Sections
+;
+; These sections contain data that is shared between devices.
+;
+
+[UNI_DATA]
+HelpFile=UNIDRV.HLP
+DefaultDataType=EMF
+
+;
+; Color profiles go to the colors directory. All other files go to the
+; system directory
+;
+
+[DestinationDirs]
+DefaultDestDir=11
+
+;
+; Localizable Strings
+;
+[Strings]
+MS="Microsoft"
+PS_MONITOR="PostScript Language Monitor,PSMON.DLL"
