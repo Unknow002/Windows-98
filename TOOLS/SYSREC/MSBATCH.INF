@@ -1,0 +1,146 @@
+; MSBATCH.INF
+;
+; Copyright (c) 1995-1998 Microsoft Corporation.
+; All rights reserved.
+;
+
+[BatchSetup]
+Version=3.0 (32-bit)
+SaveDate=01/09/98
+
+[Version]
+Signature = "$CHICAGO$"
+LayoutFile=layout.inf
+
+[Setup]
+Express=1
+InstallDir="c:\windows"
+InstallType=3
+EBD=0
+ShowEula=0
+ChangeDir=0
+OptionalComponents=1
+Network=1
+System=0
+CCP=0
+CleanBoot=0
+Display=0
+DevicePath=0
+NoDirWarn=1
+TimeZone="GT"
+Uninstall=0
+NoPrompt2Boot=1
+
+[System]
+Locale=L0408
+SelectedKeyboard=KEYBOARD_00000408
+
+[NameAndOrg]
+Name="System Recovery"
+Org="Preferred Customer"
+Display=0
+
+[Network]
+ComputerName="Windows 98 User"
+Workgroup="WORKGROUP"
+Description="System Recovery"
+Display=0
+
+[VREDIR]
+LogonDomain="WORKGROUP"
+ValidatedLogon=1
+
+[OptionalComponents]
+"Ρυθμίσεις"=1
+"Εργαλεία"=0
+"Χαρτοφύλακας"=0
+"Αριθμομηχανή"=1
+"Ταπετσαρία επιφάνειας εργασίας"=0
+"Πρότυπα εγγράφων"=1
+"Παιχνίδια"=0
+"Imaging"=1
+"Δείκτες ποντικιού"=0
+"Ζωγραφική"=1
+"Γρήγορη Προβολή"=0
+"Windows Scripting Host"=1
+"WordPad"=1
+"Δίκτυο μέσω Τηλεφώνου"=0
+"Διακομιστής τηλεφωνικών κλήσεων"=0
+"Απευθείας Καλωδιακή Σύνδεση"=0
+"HyperTerminal"=0
+"Microsoft Chat 2.1"=0
+"Microsoft NetMeeting"=1
+"Τηλεφωνητής"=1
+"Εικονικό Ιδιωτικό Δίκτυο"=0
+"Μπέιζμπολ"=0
+"’γρια ζώα"=0
+"Εσωτερικό του υπολογιστή"=0
+"Ζούγκλα"=0
+"Leonardo da Vinci"=0
+"Περισσότερα Windows"=0
+"Μυστήριο"=0
+"Φύση"=0
+"Επιστήμη"=0
+"Διάστημα"=0
+"Αθλήματα"=0
+"Δεκαετία του 60"=0
+"Βιομηχανική εποχή"=0
+"Ταξίδι"=0
+"Βυθός"=0
+"Windows 98"=0
+"Microsoft FrontPage Express"=1
+"Microsoft VRML 2.0 Viewer"=0
+"Microsoft Wallet"=0
+"Personal Web Server"=1
+"Real Audio Player 4.0"=0
+"Οδηγός δημοσίευσης στο Web"=0
+"Διαχείριση εταιρείας μέσω Web"=0
+"Microsoft Outlook Express"=1
+"Βαλτικής"=0
+"Κεντροευρωπαϊκές"=0
+"Κυριλλικές"=0
+"Ελληνική"=0
+"Τουρκική"=0
+"Συμπίεση ήχου"=1
+"Αναπαραγωγή CD"=1
+"Macromedia Shockwave Director"=1
+"Macromedia Shockwave Flash"=1
+"Αναπαραγωγή Πολυμέσων"=1
+"Microsoft NetShow Player 2.0"=0
+"Συνδυασμοί ήχων πολυμέσων"=0
+"Δείγματα ήχου"=0
+"Ηχογράφηση"=1
+"Συμπίεση βίντεο"=1
+"Ένταση ήχου"=1
+"Επιπλέον προφυλάξεις οθόνης"=0
+"Ιπτάμενα Windows"=1
+"Προφυλάξεις οθόνης OpenGL"=0
+"Αντίγραφα Ασφαλείας"=0
+"Πίνακας Χαρακτήρων"=0
+"Προβολή Προχείρου"=0
+"Εργαλεία συμπίεσης δίσκων"=1
+"Μετατροπέας Μονάδας Δίσκου (FAT32)"=1
+"Πολιτικές για Oμάδες"=0
+"Παρακολούθηση Δικτύου"=0
+"Εποπτεία Συστήματος"=0
+"Μέτρηση Πόρων Συστήματος"=0
+
+[Printers]
+
+[InstallLocationsMRU]
+
+[Install]
+AddReg=Run.Installed.Components,Registry.WinUpdate
+
+[Install]
+AddReg=RegistrySettings
+DelReg=DelRegistrySettings
+
+[RegistrySettings]
+HKLM,%KEY_RUN%,BatchReg1,,"%11%\srw.exe"
+
+[DelRegistrySettings]
+HKLM,%KEY_RUN%,Welcome
+
+[Strings]
+KEY_RUN="SOFTWARE\Microsoft\Windows\CurrentVersion\Run"
