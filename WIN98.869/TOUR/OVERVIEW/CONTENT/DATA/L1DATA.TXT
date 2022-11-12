@@ -1,0 +1,31 @@
+%<!-- lesson1.htm --><!-- Starting a Program -->
+Σε αυτό το μάθημα, θα μάθετε πώς να ανοίγετε και να κλείνετε γρήγορα ένα πρόγραμμα στα Windows.
+<P>
+<br>
+<p>
+Κάντε κλικ στο κουμπί <b>Εμπρός</b> παραπάνω, για να συνεχίσετε.
+%~%
+Πολλά από τα <a id=a1 href="javascript:;" onclick="javascript:popup('Column1', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>προγράμματα</a> που είναι αποθηκευμένα στον υπολογιστή σας μπορούν να ανοιχτούν από το μενού <b>Έναρξη</b>.
+%~%
+Για να ανοίξετε ένα πρόγραμμα, κάντε κλικ στο κουμπί <b>Έναρξη</b> <img src="images/stdstart.gif" align=absmiddle>
+των Windows στη <a id=a1 href="javascript:;" onclick="javascript:popup('Column2', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>γραμμή εργασιών</a>, τοποθετήστε το δείκτη του ποντικιού στην επιλογή <b>Προγράμματα</b>, μετά στην επιλογή <b>Βοηθήματα</b> και κάντε κλικ στην επιλογή <b>WordPad</b>.
+<p>
+Μπορείτε να χρησιμοποιήσετε το WordPad, ένα πρόγραμμα επεξεργασίας κειμένου των Windows,  
+για να συντάξετε επιστολές, εκθέσεις και άλλα έγγραφα.
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Για να κλείσετε το WordPad, κάντε κλικ στο κουμπί <b>Κλείσιμο</b> <img src="images/stdclose.gif">
+στη <a id=a1 href="javascript:;" onclick="javascript:popup('Column3', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>γραμμή τίτλου</a> του παραθύρου <b>WordPad</b>.
+<p>
+Τώρα γνωρίζετε πώς να ανοίξετε και να κλείσετε ένα πρόγραμμα των Windows.
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%
+
+

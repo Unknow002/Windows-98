@@ -1,0 +1,95 @@
+%<!-- version 8.14.7 --><!--lesson3.htm--><!-- Finding Information -->
+Σε αυτό το μάθημα, θα μάθετε πώς να χρησιμοποιείτε την εντολή <b>Εύρεση</b> για τον εντοπισμό ενός αρχείου στον υπολογιστή σας.
+<p>
+<br>
+<p>
+Κάντε κλικ στο κουμπί <b>Εμπρός</b> παραπάνω, για να συνεχίσετε.
+%~%
+Εάν δεν μπορείτε να θυμηθείτε που αποθηκεύσατε ένα έγγραφο, τα Windows σάς διευκολύνουν στην εύρεση ενός <a id=a1 href="javascript:;" onclick="javascript:popup('Column4', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>αρχείου</a> ή ενός <a id=a2 href="javascript:;" onclick="javascript:popup('Column5', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>φακέλου</a>.
+%~%
+Για να δημιουργήσετε ένα νέο αρχείο, κάντε κλικ στο κουμπί <b>Έναρξη</b> <img src="images/Stdstart.gif" align=absmiddle>
+στη <a id=a1 href="javascript:;" onclick="javascript:popup('Column2', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>γραμμή εργασιών</a> των <b>Windows</b>, τοποθετήστε το δείκτη του ποντικιού στην επιλογή <b>Προγράμματα</b>, στην επιλογή <b>Βοηθήματα</b> και κάντε κλικ στην εντολή <b>WordPad</b>.
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Κάντε κλικ στη μεγάλη κενή περιοχή του παραθύρου του <b>WordPad</b> και πληκτρολογήστε <i>Λίστα βιβλίων</i>.
+<p>
+<a id=a1 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Στο παράθυρο του <b>WordPad</b>, κάντε κλικ στο μενού <b>Αρχείο</b> και κάντε κλικ στην επιλογή <b>Αποθήκευση ως...</b>, για να αποθηκεύσετε το νέο αρχείο.
+<p>
+<a id=a1 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Κάντε κλικ στη <a id=a1 href="javascript:;" onclick="javascript:popup('Column3', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>γραμμή τίτλου</a> του <a id=a2 href="javascript:;" onclick="javascript:popup('Column11', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>παράθυρου διαλόγου</a> <b>Αποθήκευση ως</b>, για να το κάνετε <a id=a3 href="javascript:;" onclick="javascript:popup('Column12', window.event.x, window.event.y);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>ενεργό</a>.  Στην πλαίσιο <b>Όνομα αρχείου:</b>, κάντε διπλό κλικ στο <a id=a4 href="javascript:;" onclick="javascript:popup('Column13', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>προεπιλεγμένο</a> όνομα αρχείου <b>Έγγραφο</b> και πληκτρολογήστε ένα νέο όνομα για το αρχείο, <i>Παύλος Σιταράς</i>.
+<br><a id=a5 id="tiplink" href="javascript:;" onClick="javascript:popup('Column15', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Συμβουλή!</span></a>
+<p>
+<a id=a6 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Κάντε κλικ στο κουμπί <b>Αποθήκευση</b>, για να αποθηκεύσετε το έγγραφο του <B>WordPad</B> που δημιουργήσατε και το οποίο τώρα ονομάζεται <B>Παύλος Σιταράς</B>.
+<br><a id=a1 id="tiplink" href="javascript:;" onClick="javascript:popup('Column68', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Συμβουλή!</span></a>
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Για να κλείσετε το έγγραφο, κάντε κλικ στο κουμπί <b>Κλείσιμο</b> <img src="images/stdclose.gif"> στη γραμμή τίτλου του παραθύρου του <b>WordPad</b>.
+<p>
+<a id=a1 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Για να βρείτε το έγγραφο που μόλις αποθηκεύσατε, κάντε κλικ στο κουμπί <b>Έναρξη</b> <img src="images/stdstart.gif" align=absmiddle> στη γραμμή εργασιών των Windows, τοποθετήστε το δείκτη του ποντικιού στην επιλογή <b>Εύρεση</b> και κάντε κλικ στην εντολή
+<b>Αρχεία ή φάκελοι...</b>.
+<p>
+<a id=a1 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Κάντε κλικ στην καρτέλα <b>Όνομα και θέση</b> <a id=a1 href="javascript:;" onclick="javascript:popup('Column77', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">
+</a> για να την ενεργοποιήσετε. Κάντε κλικ στο πλάισιο <b>Με όνομα:</b> και πληκτρολογήστε
+<i>Παύλος Σιταράς</i>.
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Κάντε κλικ στο βέλος που βρίσκεται στα δεξιά του πλαισίου <b>Διερεύνηση στο:</b> και επιλέξτε <b>(C:)</b>, εάν δεν έχει ήδη επιλεγεί.
+<p>
+Ίσως χρειαστεί να <a id=a1 href="javascript:;" onclick="javascript:popup('Column57', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">
+μεταφέρετε</a> το παράθυρο διαλόγου <b>Εύρεση: Όλα τα αρχεία</b>, για να δείτε το βέλος στο πλαίσιο <b>Διερεύνηση στο:</b>.
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Κάντε κλικ στο κουμπί <b>Εύρεση τώρα</b>. Ο υπολογιστής διερευνά τον <a id=a1 href="javascript:;" onclick="javascript:popup('Column66', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>σκληρό δίσκο</a>, για να βρει το έγγραφο που μόλις αποθηκεύσατε,
+<B>Παύλος Σιταράς</B>.
+<br><a id=a2 id="tiplink" href="javascript:;" onClick="javascript:popup('Column16', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Συμβουλή!</span></a>
+<p>
+<a id=a3 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Το έγγραφο του WordPad, <b>Παύλος Σιταράς</b>, εμφανίζεται στο κάτω μέρος του παραθύρου <b>Εύρεση</b>.
+Κάντε διπλό κλικ στο εικονίδιο του εγγράφου <b>Παύλος Σιταράς</b> για να ανοίξετε το έγγραφο.
+<br><a id=a1 id="tiplink" href="javascript:;" onClick="javascript:popup('Column69', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Συμβουλή!</span></a>
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Κάντε κλικ στο κουμπί <b>Κλείσιμο</b> <img src="images/stdclose.gif"> στις γραμμές τίτλου του παραθύρου <b>Παύλος Σιταράς</b> και του παραθύρου διαλόγου <b>Εύρεση</b> για να τα κλείσετε.
+<p>Έχετε μάθει τώρα πώς να δημιουργείτε και να αναζητάτε φακέλους.
+<p>
+<a id=a1 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%

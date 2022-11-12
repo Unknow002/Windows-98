@@ -1,0 +1,102 @@
+%<!-- version 9.15.8 --><!--lesson5.htm--><!-- Connecting to the Internet -->
+Σε αυτό το μάθημα θα μάθετε πώς να συνδέεστε στο Internet. Όταν θα συνδεθείτε, θα αρχίσετε την εξερεύνηση του Internet και του World Wide Web.
+<P>
+<br>
+<p>
+Κάντε κλικ στο κουμπί <b>Εμπρός</b> παραπάνω για να συνεχίσετε.
+%~%
+Αυτό το μάθημα σας δείχνει πώς να συνδεθείτε στο <a id=a1 href="javascript:;" onclick="javascript:popup('Column27', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>Internet</a> χρησιμοποιώντας ένα modem και μέσω μιας <a id=a2 href="javascript:;" onclick="javascript:popup('Column28', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>Υπηρεσίας παροχής Internet</a> (ISP).  Πρέπει να έχετε ένα σωστά εγκατεστημένο και ρυθμισμένο modem για να εκτελέσετε τα βήματα αυτού του μαθήματος. <BR><i>(Η δυνατότητα αυτή δεν είναι διαθέσιμη στην εξελληνισμένη έκδοση του προϊόντος).</i></BR>
+<br><a id=a3 id="tiplink" href="javascript:;" onClick="javascript:popup('Column29', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Συμβουλή!</span></a>
+%~%
+Το πρώτο βήμα για να συνδεθείτε στο Internet είναι η επιλογή μιας ISP. Κάντε διπλό κλικ στο φάκελο <b>Online Services</b> <a id=a1 href="javascript:;" onclick="javascript:popup('Column5', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+></a> στην <a id=a2 href="javascript:;" onclick="javascript:popup('Column19', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>επιφάνεια εργασίας</a> σας για να δείτε εικονίδια από διάφορες ISP. <BR><i>(Ο φάκελος Online Services δεν υπάρχει στην εξελληνισμένη έκδοση του προϊόντος).</i></BR>
+<p>
+<a id=a3 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Η διαδικασία εγγραφής διαφέρει, ανάλογα με την ISP.
+<P>
+Εάν θέλετε να ολοκληρώσετε τη διαδικασία εγγραφής, κάντε διπλό κλικ στο εικονίδιο <b>About The Online Services</b> <a id=a1 href="javascript:;" onclick="javascript:popup('Column18', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+></a> ή στο εικονίδιο που αντιστοιχεί στην ISP για την οποία ενδιαφέρεστε. Η περιοχή σας μπορεί να έχει άλλες ISP οι οποίες δεν περιλαμβάνονται στο φάκελο <b>Online Services</b>. <BR><i>(Ο φάκελος Online Services δεν υπάρχει στην εξελληνισμένη έκδοση του προϊόντος).</i></BR>
+<br><a id=a2 id="tiplink" href="javascript:;" onClick="javascript:popup('Column31', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Συμβουλή!</span></a>
+%~%
+Κάντε κλικ στο κουμπί <b>Κλείσιμο</b> <img src="images/stdclose.gif"> στη <a id=a1 href="javascript:;" onclick="javascript:popup('Column3', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>γραμμή τίτλου</a> του παραθύρου <b>Online Services</b>. <BR><i>(Ο φάκελος Online Services δεν υπάρχει στην εξελληνισμένη έκδοση του προϊόντος).</i></BR>
+<br><a id=a2 id="tiplink" href="javascript:;" onClick="javascript:popup('Column73', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Συμβουλή!</span></a>
+<p>
+<a id=a3 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Για να ολοκληρώσετε τα υπόλοιπα βήματα αυτού του μαθήματος, πρέπει να είστε συνδεδεμένοι στο Internet.
+<p>
+Μόλις αποκτήσετε μια ηλεκτρονική σύνδεση, κάντε διπλό κλικ στο εικονίδιο <b>Internet Explorer</b> στην επιφάνεια εργασίας σας.
+<p>
+<a id=a1 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Στο παράθυρο του <b>Internet Explorer</b>, κάντε κλικ στο πλαίσιο <b>Διευθύνσεις</b> στη <a id=a1 href="javascript:;" onclick="javascript:popup('Column43', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>γραμμή εργαλείων</a> <b>Διευθύνσεις</b>, πληκτρολογήστε <i>www.microsoft.com/</i> και πατήστε το πλήκτρο ENTER. Προσέξτε ότι ανοίγει η <a id=a2 href="javascript:;" onclick="javascript:popup('Column59', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>αρχική σελίδα</a> της Microsoft Corporation.
+<br><a id=a3 id="tiplink" href="javascript:;" onClick="javascript:popup('Column32', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Συμβουλή!</span></a>
+<p>
+<a id=a4 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Στο παράθυρο του <b>Internet Explorer</b>, κάντε κλικ στο κουμπί <b>Αρχική σελίδα του Internet</b> στη γραμμή εργαλείων <b>Συνδέσεις</b>.
+<p>
+Εάν δεν βλέπετε το κουμπί αυτό, κάντε κλικ στην επιλογή <b>Συνδέσεις</b> και <a id=a1 href="javascript:;" onclick="javascript:popup('Column57', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">μεταφέρετε</a> τη γραμμή εργαλείων <b>Συνδέσεις</b> κάτω από τη γραμμή εργαλείων <b>Διευθύνσεις</b>. Η γραμμή εργαλείων <b>Συνδέσεις</b> είναι τώρα κάτω από τη γραμμή εργαλείων <b>Διευθύνσεις</b>.<br><a id=a2 id="tiplink" href="javascript:;" onClick="javascript:popup('Column74', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Συμβουλή!</span>
+<p>
+<a id=a3 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Ανοίγει η <a id=a1 href="javascript:;" onclick="javascript:popup('Column60', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>τοποθεσία Web</a> <b>Internet Start</b> με τις τελευταίες πληροφορίες σχετικά με το πρόγραμμα ανάγνωσης ιστοσελίδων.
+%~%
+Για να επιστρέψετε στην προηγούμενη σελίδα του <a id=a1 href="javascript:;" onclick="javascript:popup('Column75', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>Web</a>, κάντε κλικ στο κουμπί <b>Πίσω</b>  <img src="images/turbkbtn.gif">  στη γραμμή εργαλείων του παραθύρου του <b>Internet Explorer</b>.
+Για να επιστρέψετε στην τοποθεσία που μόλις επισκεφθήκατε, στο Internet Start, κάντε κλικ στο κουμπί <b>Εμπρός</b> <img src="images/turforwd.gif"> στη γραμμή εργαλείων.
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Για να προβάλετε τα περιεχόμενα μιας άλλης τοποθεσίας, κάντε κλικ στην επιλογή <b>Τα καλύτερα στο Web</b> στη γραμμή εργαλείων <b>Συνδέσεις</b>.
+<p>
+Εμφανίζεται μια ιστοσελίδα με συνδέσεις για προτεινόμενες τοποθεσίες Web.
+<p>
+<a id=a1 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Μετακινήστε το δείκτη του ποντικιού σας επάνω σε κάποιες από τις εικόνες και το κείμενο της επιλογής <b>Τα καλύτερα στο Web</b>.  Ο δείκτης του ποντικιού σας μετατρέπεται σε ένα χέρι όταν περνάει επάνω από μια <a id=a1 href="javascript:;" onclick="javascript:popup('Column64', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>υπερ-σύνδεση</a>.  Κάντε κλικ σε μία από τις <a id=a2 href="javascript:;" onclick="javascript:popup('Column65', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>συνδέσεις </a>του κειμένου.
+<p>
+Μπορεί να χρειαστεί να κάνετε <a id=a3 href="javascript:;" onclick="javascript:popup('Column78', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>κύλιση</a> της σελίδας προς τα κάτω για να δείτε τις συνδέσεις.
+<p>
+<a id=a4 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Για να επιστρέψετε στην αρχική σελίδα σας στο Internet <a id=a1 href="javascript:;" onclick="javascript:popup('Column79', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+> </a>, κάντε κλικ στο κουμπί <b>Αρχική σελίδα</b> <img src="images/turhome.gif"> της βασικής γραμμής εργαλείων.
+<br><a id=a2 id="tiplink" href="javascript:;" onClick="javascript:popup('Column82', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Συμβουλή!</span></a>
+<p>
+<a id=a3 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Για να κλείσετε τον <b>Internet Explorer</b>, κάντε κλικ στο κουμπί <b>Κλείσιμο</b> <img src="images/stdclose.gif"> στη γραμμή τίτλου του παραθύρου. Εάν η ISP σας ρωτήσει εάν θα αποσυνδεθείτε από το Ιnternet, κάντε κλικ στο κουμπί <b>Ναι</b>.
+<p>
+Τώρα ξέρετε πώς να εξερευνείτε το Ιnternet και το World Wide Web.
+<p>
+<a id=a1 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%
+

@@ -1,0 +1,104 @@
+%<!-- version 9.15.8 --><!--lesson4.htm--><!-- Managing Open Windows -->
+Σε αυτό το μάθημα, θα μάθετε πώς να διαχειρίζεστε ανοιχτά παράθυρα με τη χρήση της γραμμής εργασιών. Θα μάθετε επίσης τη χρήση των κουμπιών <b>Ελαχιστοποίηση</b> και <b>Μεγιστοποίηση</b>, για να αλλάζετε τον τρόπο εμφάνισης των παραθύρων.
+<P>
+<br>
+<p>
+Κάντε κλικ στο κουμπί <b>Εμπρός</b> παραπάνω για να συνεχίσετε.
+%~%
+Χρησιμοποιώντας τη <a id=a1 href="javascript:;" onclick="javascript:popup('Column2', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>γραμμή εργασιών</a> των Windows μπορείτε να μετακινήστε εύκολα και γρήγορα ανάμεσα σε ανοιχτά <a id=a2 href="javascript:;" onclick="javascript:popup('Column44', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>παράθυρα</a>.
+%~%
+Κάντε κλικ στο κουμπί <b>Έναρξη</b> <img src="images/stdstart.gif" align=absmiddle>
+στη γραμμή εργασιών των <b>Windows</b>, τοποθετήστε το δείκτη του ποντικιού στην επιλογή <b>Προγράμματα</b> και κάντε κλικ στην επιλογή <b>Εξερεύνηση των Windows</b>.
+Ανοίγει το παράθυρο <B>Εξερεύνηση των Windows</B>.
+<p>
+<a id=a1 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Κάντε κλικ και κρατήστε πατημένο το αριστερό πλήκτρο του ποντικιού στη <a id=a1 href="javascript:;" onclick="javascript:popup('Column3', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>γραμμή τίτλου</a> στο παράθυρο <b>Εξερεύνηση των Windows</b> και <a id=a2 href="javascript:;" onclick="javascript:popup('Column57', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>μεταφέρετε</a> το παράθυρο ώστε να μπορείτε να δείτε το εικονίδιο
+<b>Ο Υπολογιστής μου</b> <a id=a3 href="javascript:;" onclick="javascript:popup('Column18', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+></a> στην <a id=a4 href="javascript:;" onclick="javascript:popup('Column19', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>επιφάνεια εργασίας</a>.
+<br><a id=a5 id="tiplink" href="javascript:;" onClick="javascript:popup('Column20', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Συμβουλή!</span></a>
+<p>
+<a id=a6 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Για να ανοίξετε ένα δεύτερο παράθυρο, κάντε <a id=a1 href="javascript:;" onclick="javascript:popup('Column76', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>διπλό κλικ</a> στο εικονίδιο <b>Ο Υπολογιστής μου</b> στην επιφάνεια εργασίας.
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Για να ανοίξετε ένα τρίτο παράθυρο, κάντε διπλό κλικ στο εικονίδιο <b>Περιοχή δικτύου</b> στην επιφάνεια εργασίας.<br>
+<p>
+Σημειώστε ότι το τελευταίο παράθυρο που ανοίξατε εμφανίζεται μπροστά από τα άλλα παράθυρα.
+<br><a id=a1 id="tiplink" href="javascript:;" onClick="javascript:popup('Column70', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Συμβουλή!</span></a>
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Για να εμφανίσετε το παράθυρο <b>Ο Υπολογιστής μου</b> μπροστά από τα άλλα παράθυρα, κάντε κλικ στο κουμπί <b>Ο Υπoλογιστής μου</b> στη γραμμή εργασιών.
+<br><a id=a1 id="tiplink" href="javascript:;" onClick="javascript:popup('Column71', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Συμβουλή!</span></a>
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Επιστρέψτε στην Εξερεύνηση των Windows κάνοντας κλικ στο αντίστοιχο κουμπί (με τον τίτλο <b>Εξερεύνηση - (C:)</b>) στη γραμμή εργασιών.
+<p>
+<a id=a1 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Κάντε κλικ στο κουμπί <b>Περιοχή δικτύου</b> της γραμμής εργασιών για να εμφανίσετε το παράθυρο <b>Περιοχή δικτύου</b> μπροστά από τα άλλα παράθυρα.
+<br><a id=a1 id="tiplink" href="javascript:;" onClick="javascript:popup('Column22', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Συμβουλή!</span></a>
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Μπορείτε να χρησιμοποιήσετε τα κουμπιά <b>Ελαχιστοποίηση</b> και <b>Μεγιστοποίηση</b> για την απόκρυψη και την εμφάνιση των ανοιχτών παραθύρων.
+%~%
+Κάντε κλικ στο κουμπί <b>Ελαχιστοποίηση</b> <img src="images/turminmz.gif"> στη γραμμή τίτλου του παραθύρου <b>Περιοχή δικτύου</b>
+για να <a id=a1 href="javascript:;" onclick="javascript:popup('Column23', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>ελαχιστοποιήσετε</a> το παράθυρο.
+<br><a id=a2 id="tiplink" href="javascript:;" onClick="javascript:popup('Column72', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Συμβουλή!</span></a>
+<p>
+<a id=a3 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Κάντε κλικ στο κουμπί <b>Μεγιστοποίηση</b> <img src="images/TurMaxmz.gif"> στη γραμμή τίτλου του παραθύρου
+<b>Εξερεύνηση των Windows</b> (με τον τίτλο <b>Εξερεύνηση - (C:)</b>) για να το <a id=a1 href="javascript:;" onclick="javascript:popup('Column24', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>μεγιστοποιήσετε</a>.
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Κάντε κλικ στο κουμπί <b>Επαναφορά</b> <img src="images/turrstor.gif"> στη γραμμή τίτλου του παραθύρου <b>Εξερεύνηση των Windows</b> (με τον τίτλο <b>Εξερεύνηση - (C:)</b>) για να επαναφέρετε το παράθυρο στο προηγούμενο μέγεθος.
+<br><a id=a1 id="tiplink" href="javascript:;" onClick="javascript:popup('Column25', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Συμβουλή!</span></a>
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Κάντε κλικ στο κουμπί <b>Κλείσιμο</b> <img src="images/stdclose.gif"> στις γραμμές τίτλου των παραθύρων <b>Εξερεύνηση των Windows</b> (με τον τίτλο <b>Εξερεύνηση - (C:)</b>) και <b>Ο Υπολογιστής μου</b>.
+<br><a id=a1 id="tiplink" href="javascript:;" onClick="javascript:popup('Column26', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Συμβουλή!</span></a>
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Κάντε κλικ στο κουμπί <b>Περιοχή δικτύου</b> της γραμμής εργασιών για να το επαναφέρετε και κάντε κλικ στο κουμπί <b>Κλείσιμο</b>
+<img src="images/stdclose.gif"> στη γραμμή τίτλου του παραθύρου <b>Περιοχή δικτύου</b>.
+<p>
+Τώρα γνωρίζετε πώς να διαχειρίζεστε εύκολα και γρήγορα ανοιχτά παράθυρα.
+<P>
+<a id=a1 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%

@@ -1,0 +1,99 @@
+%<!-- version 9.15.8 --><!--lesson6.htm--><!-- Εξερεύνηση του Active Desktop -->
+Στο μάθημα αυτό, θα μάθετε πώς να κάνετε εναλλαγή ανάμεσα στο Active Desktop
+και την τυπική επιφάνεια εργασίας των Windows, καθώς και πώς να χρησιμοποιείτε τις συντομεύσεις στη γραμμή εργαλείων <b>Γρήγορη εκκίνηση</b> για να ξεκινήσετε προγράμματα. Τέλος, θα μάθετε πώς να προβάλετε και να προσθέτετε κανάλια, τα οποία μεταφέρουν περιεχόμενα του Web στον υπολογιστή σας.
+<p>
+<br>
+<p>
+Κάντε κλικ στο κουμπί <b>Εμπρός</b>, επάνω, για να συνεχίσετε.
+%~%
+Το <a id=a1 href="javascript:;" onclick="javascript:popup('Column37', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">
+Active Desktop</a> ενσωματώνει το <a id=a2 href="javascript:;" onclick="javascript:popup('Column38', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">
+πρόγραμμα ανάγνωσης ιστοσελίδων</a> Internet Explorer
+ με την τυπική <a id=a3 href="javascript:;" onclick="javascript:popup('Column19', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">επιφάνεια εργασίας</a> των Windows. Μπορείτε να κάνετε εναλλαγή μεταξύ του Active Desktop και της τυπικής επιφάνειας εργασίας των Windows οποιαδήποτε στιγμή.
+<br><a id=a4 id="tiplink" href="javascript:;" onClick="javascript:popup('Column39', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Συμβουλή!</span></a>
+%~%
+Για να επιστρέψετε στην τυπική επιφάνεια εργασίας, κάντε <a id=a1 href="javascript:;" onclick="javascript:popup('Column8', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">κλικ με το δεξιό κουμπί του ποντικιού</a> σε μια κενή περιοχή της επιφάνειας εργασίας,
+τοποθετήστε το δείκτη του ποντικιού στην επιλογή <b>Active Desktop</b> στο <a id=a2 href="javascript:;" onclick="javascript:popup('Column40', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">
+μενού συντόμευσης</a> και κάντε κλικ στην επιλογή <b>Προβολή ως ιστοσελίδα</b>.
+<br><a id=a3 id="tiplink" href="javascript:;" onClick="javascript:popup('Column41', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Συμβουλή!</span></a>
+<p>
+<a id=a4 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Για την επαναφορά του Active Desktop, κάντε κλικ με το δεξιό κουμπί του ποντικιού σε μια κενή περιοχή της επιφάνειας εργασίας σας, τοποθετήστε το δείκτη του ποντικιού στην επιλογή <b>Active Desktop</b> και στη συνέχεια κάντε κλικ στην επιλογή <b>Προβολή ως ιστοσελίδα.</b> Το Active
+Desktop επανεμφανίζεται.
+<br><a id=a1 id="tiplink" href="javascript:;" onClick="javascript:popup('Column42', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Συμβουλή!</span></a>
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Για να ολοκληρώσετε τα παρακάτω βήματα, ο υπολογιστής σας πρέπει να είναι συνδεδεμένος στο Internet. Για να μάθετε πώς να συνδεθείτε, κάντε κλικ στο κουμπί <b>Μαθήματα</b> <img src="images/ovhome.gif">
+στη <a id=a1 href="javascript:;" onclick="javascript:popup('Column43', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">γραμμή εργαλείων</a> του παραθύρου βημάτων και κάντε κλικ στο μάθημα <b>Σύνδεση με το Internet</b>.
+%~%
+Βρείτε τη γραμμή εργαλείων <b>Γρήγορη εκκίνηση</b> η οποία βρίσκεται δεξιά από το κουμπί <b>Εκκίνηση</b> στη <a id=a1 href="javascript:;" onclick="javascript:popup('Column2', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">
+γραμμή εργασιών</a> των Windows. Η γραμμή εργαλείων <b>Γρήγορη εκκίνηση</b> περιέχει κουμπιά που ξεκινούν τον Internet Explorer και το Outlook Express, ένα κουμπί που ελαχιστοποιεί όλα τα ανοιχτά <a id=a2 href="javascript:;" onclick="javascript:popup('Column17', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">
+παράθυρα</a> αμέσως και ένα κουμπί που εμφανίζει τη λίστα σας των Ενεργών Καναλιών.
+<br><a id=a3 id="tiplink" href="javascript:;" onClick="javascript:popup('Column45', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Συμβουλή!</span></a>
+%~%
+Στη γραμμή εργαλείων <b>Γρήγορη εκκίνηση</b>, κάντε κλικ στο κουμπί  <b>Εκκίνηση του προγράμματος ανάγνωσης ιστοσελίδων Internet Explorer</b>
+ <img src="images/TurQwkie.gif"> για να ανοίξετε τον Internet Explorer.
+<br><a id=a1 id="tiplink" href="javascript:;" onClick="javascript:popup('Column46', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Συμβουλή!</span></a>
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Με τον Internet Explorer, μπορείτε να προβάλετε ιστοσελίδες και να εξερευνήσετε το <a id=a1 href="javascript:;" onclick="javascript:popup('Column47', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">
+World Wide Web</a>. Κάντε κλικ στο κουμπί <b>Κλείσιμο</b> <img src="images/StdClose.gif"> στη <a id=a2 href="javascript:;" onclick="javascript:popup('Column3', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">
+γραμμή τίτλου</a> του παραθύρου του <b>Internet Explorer</b>.
+<p>
+<a id=a3 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Βρείτε τη γραμμή εργαλείων <b>Γρήγορη εκκίνηση</b> στη γραμμή εργασιών και κάντε κλικ στο κουμπί <b>Προβολή καναλιών</b> <img src="images/TurVwChn.gif">. Μετακινήστε το δείκτη σας στη δεξιά άκρη του παραθύρου για να αποκρύψετε προσωρινά τη <a id=a1 href="javascript:;" onclick="javascript:popup('Column48', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">
+γραμμή καναλιών</a> και να δείτε το παράθυρο πλήρους οθόνης.
+<br><a id=a2 id="tiplink" href="javascript:;" onClick="javascript:popup('Column49', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Συμβουλή!</span></a>
+<p>
+<a id=a3 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Για να δείτε τη Γραμμή καναλιών ξανά, μετακινήστε το δείκτη σας στην αριστερή άκρη του παραθύρου. Για να χωρίσετε το παράθυρο σε δύο περιοχές παραθύρου, κάντε κλικ στο κουμπί με το εικονίδιο "πινέζα" <img src="images/TurPshPn.gif"> στη γραμμή τίτλου της Γραμμής καναλιών.
+<br><a id=a1 id="tiplink" href="javascript:;" onClick="javascript:popup('Column50', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Συμβουλή!</span></a>
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Κάντε κλικ σε ένα <a id=a1 href="javascript:;" onclick="javascript:popup('Column51', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">κανάλι</a> στη Γραμμή καναλιών. Εμφανίζεται μια προεπισκόπηση του καναλιού αυτού στο δεξιό
+<a id=a2 href="javascript:;" onclick="javascript:popup('Column52', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">
+τμήμα</a> του παραθύρου. Για να προσθέσετε αυτό το κανάλι, κάντε κλικ στο κουμπί <b>Add Active Channel</b> μόλις αυτό εμφανιστεί.
+<p>
+Μπορεί να χρειαστεί να <a id=a3 href="javascript:;" onclick="javascript:popup('Column57', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">
+μεταφέρετε</a> το παράθυρο βημάτων προς τα αριστερά για να δείτε το κουμπί <b>Add Active Channel</b>.
+<br><a id=a4 id="tiplink" href="javascript:;" onClick="javascript:popup('Column53', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Συμβουλή!</span></a>
+<p>
+<a id=a5 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Στο παράθυρο διαλόγου <b>Τροποποίηση χρήσης καναλιού</b>, κάντε κλικ στην επιλογή <b>Ναι, μόνο με ειδοποίηση όταν λαμβάνουν χώρα ενημερώσεις</b>. Κάντε κλικ στο κουμπί <b>OK</b>.
+<p>
+Τώρα έχετε μια συνδρομή στο συγκεκριμένο κανάλι. Ο Internet Explorer θα σας ειδοποιεί όταν αλλάζουν τα περιεχόμενα του καναλιού.
+<br><a id=a1 id="tiplink" href="javascript:;" onClick="javascript:popup('Column80', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Συμβουλή!</span></a>
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Κάντε κλικ στο κουμπί <b>Κλείσιμο</b> <img src="images/TurChCls.gif"> στη γραμμή εργαλείων για να κλείσετε το παράθυρο.
+<p>
+Τώρα γνωρίζετε πώς να εξερευνήσετε το Active Desktop.
+<p>
+<a id=a1 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%

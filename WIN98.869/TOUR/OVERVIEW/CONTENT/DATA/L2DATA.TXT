@@ -1,0 +1,96 @@
+%<!-- version 9.15.8 --><!-- lesson2.htm --> <!-- Exploring Files and Folders -->
+Σε αυτό το μάθημα, θα μάθετε πώς να προβάλετε αρχεία και φακέλους που είναι αποθηκευμένα στον υπολογιστή σας.
+Επίσης, θα μάθετε πώς να χρησιμοποιείτε τα Windows για τη διαχείριση των αρχείων και των φακέλων σας.
+<P>
+<br>
+<p>
+Κάντε κλικ στο κουμπί <b>Εμπρός</b> που βρίσκεται παραπάνω για να συνεχίσετε.
+%~%
+Χρησιμοποιώντας το παράθυρο <b>Ο Υπολογιστής μου</b>, μαθαίνετε πώς να δημιουργείτε και να οργανώνετε
+<a id=a1 href="javascript:;" onclick="javascript:popup('Column62', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">
+αρχεία</a> και
+<a id=a2 href="javascript:;" onclick="javascript:popup('Column63', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">
+φακέλους</a>.
+%~%
+Κάντε <a id=a1 href="javascript:;" onclick="javascript:popup('Column76', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">διπλό κλικ</a> στο <a id=a2 href="javascript:;" onclick="javascript:popup('Column18', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">εικονίδιο</a> <b>Ο Υπολογιστής μου</b> στην επιφάνεια εργασίας.
+<p>
+Το παράθυρο <b>Ο Υπολογιστής μου</b> σάς δείχνει τα περιεχόμενα του υπολογιστή σας.
+<br><a id=a3 id="tiplink" href="javascript:;" onClick="javascript:popup('Column67', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Συμβουλή!</span></a>
+<p>
+<a id=a4 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Κάντε διπλό κλικ στο εικονίδιο <b>(C:)</b> στο παράθυρο <b>Ο Υπολογιστής μου</b>, για να δείτε τα περιεχόμενα του <a id=a1 href="javascript:;" onclick="javascript:popup('Column6', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>σκληρού δίσκου</a> του υπολογιστή σας.
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Κάντε διπλό κλικ στο φάκελο <b>Τα έγγραφά μου</b>, για να τον ανοίξετε και να δείτε όποια αρχεία ή φακέλους περιέχει.
+<br><a id=a1 id="tiplink" href="javascript:;" onClick="javascript:popup('Column7', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Συμβουλή!</span></a>
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Δημιουργήστε έναν νέο φάκελο, κάνοντας κλικ στο μενού <b>Αρχείο</b> στο παράθυρο <b>Τα έγγραφά μου</b>, τοποθετώντας το δείκτη του ποντικιού στην επιλογή <b>Δημιουργία</b> και κάνοντας κλικ στην εντολή <b>Φάκελος</b>.
+<P>
+Ο φάκελος που μόλις δημιουργήσατε, με την ονομασία <b>Νέος φάκελος</b>, βρίσκεται τώρα στο παράθυρο <b>Τα έγγραφά μου</b>.
+<p>
+<a id=a1 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Χρησιμοποιώντας το δεξιό κουμπί του ποντικιού (<a id=a1 href="javascript:;" onclick="javascript:popup('Column8', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>δεξιό κλικ</a>), κάντε κλικ στο εικονίδιο <b>Νέος φάκελος</b> και κάντε κλικ στην εντολή <b>Μετονομασία</b> στο <a id=a2 href="javascript:;" onclick="javascript:popup('Column40', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>μενού συντόμευσης</a>. Πληκτρολογήστε <i>Δείγμα φακέλου</i>, για να αντικαταστήσετε το <a id=a3 href="javascript:;" onclick="javascript:popup('Column13', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>προεπιλεγμένο</a> όνομα φακέλου, <b>Νέος φάκελος</b> και μετά πιέστε το πλήκτρο ENTER.
+<p>
+<a id=a4 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Μπορείτε επίσης να δημιουργήσετε ένα νέο αρχείο σε αυτό το παράθυρο.
+<p>
+Για να δημιουργήσετε ένα νέο αρχείο, κάντε κλικ στο μενού <b>Αρχείο</b> στο παράθυρο <b>Τα έγγραφά μου</b>,
+επιλέξτε την εντολή  <b>Δημιουργία</b> και μετά κάντε κλικ στην επιλογή <b>Έγγραφο WordPad</b>.
+<br><a id=a1 id="tiplink" href="javascript:;" onClick="javascript:popup('Column81', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Συμβουλή!</span></a>
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Κάντε κλικ με το δεξιό κουμπί του ποντικιού στο εικονίδιο <b>Νέο έγγραφο WordPad</b> και κάντε κλικ στην επιλογή <b>Μετονομασία</b>. Πληκτρολογήστε
+<i>Δείγμα αρχείου</i>, για να αντικαταστήσετε το προεπιλεγμένο όνομα εγγράφου και πιέστε το πλήκτρο
+ENTER.
+<p>
+Έχετε δημιουργήσει ένα νέο αρχείο και έναν νέο φάκελο.
+<p>
+<a id=a1 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Τώρα που έχετε μάθει πώς να δημιουργείτε αρχεία και φακέλους, θα μάθετε πώς να οργανώνετε την εργασία σας τοποθετώντας τα αρχεία σας μέσα σε φακέλους.
+%~%
+Κάντε κλικ και κρατήστε πατημένο το αριστερό κουμπί του ποντικιού στο εικονίδιο <b>Δείγμα αρχείου</b>, μετακινήστε το δείκτη του ποντικιού στο εικονίδιο <b>Δείγμα φακέλου</b> και απελευθερώστε το κουμπί του ποντικιού.  Αυτή η διαδικασία ονομάζεται <a id=a1 href="javascript:;" onclick="javascript:popup('Column9', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>μεταφορά</a>.
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Τώρα το αρχείο σας βρίσκεται μέσα στο φάκελο.
+<p>
+Κάντε διπλό κλικ στο εικονίδιο <b>Δείγμα φακέλου</b>, για να δείτε το <b>Δείγμα αρχείου</b>.
+<br><a id=a1 id="tiplink" href="javascript:;" onClick="javascript:popup('Column10', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Συμβουλή!</span></a>
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%~%
+Για να κλείσετε το παράθυρο <b>Δείγμα φακέλου</b>, κάντε κλικ στο κουμπί <b>Κλείσιμο</b> <img src="images/stdclose.gif"> στη
+<a id=a1 href="javascript:;" onclick="javascript:popup('Column3', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>γραμμή τίτλου</a>.
+<P>
+Τώρα γνωρίζετε πώς να χρησιμοποιείτε τα Windows για να διαχειρίζεστε τα αρχεία και τους φακέλους σας.
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">
+Εμφάνιση</span></a>
+%
