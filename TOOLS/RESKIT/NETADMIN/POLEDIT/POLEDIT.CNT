@@ -1,0 +1,6 @@
+:Base poledit.hlp>proc4
+:Title Βοήθεια για την Επεξεργασία Πολιτικών Συστήματος
+:Index Βοήθεια για την Επεξεργασία Πολιτικών Συστήματος=poledit.hlp
+1 Δημιουργία ενός νέου αρχείου πολιτικής=IDH_POLEDIT_CREATE_NEW
+1 Ρύθμιση της αυτόματης φόρτωσης από διακομιστές Windows NT=IDH_POLEDIT_AUTO_DOWNLOAD_NT
+1 Ρύθμιση της αυτόματης φόρτωσης από διακομιστές NetWare=IDH_POLEDIT_AUTO_DOWNLOAD_NETWARE

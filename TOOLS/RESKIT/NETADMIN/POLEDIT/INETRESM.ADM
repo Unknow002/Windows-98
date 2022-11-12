@@ -1,0 +1,287 @@
+; inetui.adm
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+CLASS USER   ;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+CATEGORY !!GeneralTab 
+KEYNAME "Software\Policies\Microsoft\Internet Explorer\Control Panel"
+	POLICY !!GeneralTab
+		PART !!RestrictHomePage CHECKBOX
+                        VALUENAME HomePage
+		END PART
+		PART !!RestrictCache CHECKBOX
+                        VALUENAME Cache
+		END PART
+		PART !!RestrictHistory CHECKBOX
+                        VALUENAME History
+		END PART
+		PART !!RestrictColors CHECKBOX
+                        VALUENAME Colors
+		END PART
+		PART !!RestrictLinks CHECKBOX
+			VALUENAME links
+		END PART
+		PART !!RestrictFonts CHECKBOX
+                        VALUENAME Fonts
+		END PART
+		PART !!RestrictLanguages CHECKBOX
+                        VALUENAME Languages
+		END PART
+		PART !!RestrictAccessibility CHECKBOX
+                        VALUENAME Accessibility
+		END PART
+	END POLICY
+END CATEGORY
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+CLASS MACHINE   ;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+CATEGORY !!Security 
+KEYNAME "Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings"
+    POLICY !!Security
+	PART !!Security_HKLM_only CHECKBOX
+	VALUENAME Security_HKLM_only
+	END PART
+
+	PART !!Security_options_edit CHECKBOX
+	VALUENAME Security_options_edit
+	END PART
+
+	PART !!Security_zones_map_edit CHECKBOX
+	VALUENAME Security_zones_map_edit
+	END PART
+    END POLICY
+END CATEGORY
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+CLASS USER   ;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+CATEGORY !!ContentTab
+KEYNAME "Software\Policies\Microsoft\Internet Explorer\Control Panel"
+	POLICY !!ContentTab
+		PART !!RestrictRatings CHECKBOX
+                        VALUENAME Ratings
+		END PART
+		PART !!RestrictCertificates CHECKBOX
+                        VALUENAME Certificates
+		END PART
+		PART !!RestrictProfiles CHECKBOX
+                        VALUENAME Profiles
+		END PART
+		PART !!RestrictWallet CHECKBOX
+                        VALUENAME Wallet
+		END PART
+	END POLICY
+END CATEGORY
+
+CATEGORY !!ConnectionTab 
+KEYNAME "Software\Policies\Microsoft\Internet Explorer\Control Panel"
+	POLICY !!ConnectionTab
+		PART !!RestrictConnectionWizard CHECKBOX
+                        VALUENAME "Connection Wizard"
+		END PART
+		PART !!RestrictConnectionSettings CHECKBOX
+                        VALUENAME "Connection Settings"
+		END PART
+		PART !!RestrictProxy CHECKBOX
+                        VALUENAME Proxy
+		END PART
+		PART !!RestrictAutoconfig CHECKBOX
+                        VALUENAME Autoconfig
+		END PART
+	END POLICY
+END CATEGORY
+
+CATEGORY !!ProgramsTab 
+KEYNAME "Software\Policies\Microsoft\Internet Explorer\Control Panel"
+	POLICY !!ProgramsTab
+		PART !!RestrictMessaging CHECKBOX
+                        VALUENAME Messaging
+		END PART
+
+		PART !!RestrictCalendarContact CHECKBOX
+                        VALUENAME CalendarContact
+		END PART
+		PART !!RestrictCheckBrowser CHECKBOX
+		VALUENAME Check_If_Default
+		END PART
+		PART !!RestrictCheckBrowser1 TEXT END PART
+	END POLICY
+END CATEGORY
+
+CATEGORY !!AdvancedTab 
+KEYNAME "Software\Policies\Microsoft\Internet Explorer\Control Panel"
+	POLICY !!AdvancedTab
+		PART !!RestrictAdvanced CHECKBOX
+                        VALUENAME Advanced
+		END PART
+	END POLICY
+END CATEGORY	
+
+;;;;;;;;;;;;;;;;;;;;;;;
+CLASS MACHINE ;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;
+CATEGORY !!CodeDownload
+KEYNAME "Software\Microsoft\Windows\CurrentVersion\Internet Settings"
+	POLICY !!CodeDownload
+		PART !!Path EDITTEXT REQUIRED
+			DEFAULT !!DefaultSearchPath
+			VALUENAME "CodeBaseSearchPath"
+		END PART
+	END POLICY
+
+END CATEGORY
+
+;;;;;;;;;;;;;;;;;;;;;;
+CLASS USER ;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+CATEGORY !!sz_Channels
+KEYNAME "Software\Policies\Microsoft\Internet Explorer\Infodelivery\Restrictions"
+    POLICY !!sz_Channels
+        PART !!NoChannelUI CHECKBOX
+        VALUENAME NoChannelUI
+        END PART
+
+        PART !!NoAddingChannels CHECKBOX
+        VALUENAME NoAddingChannels
+        END PART
+
+        PART !!NoEditingChannels CHECKBOX
+        VALUENAME NoEditingChannels
+        END PART
+
+        PART !!NoRemovingChannels CHECKBOX
+        VALUENAME NoRemovingChannels
+        END PART
+
+        PART !!NoAddingSubscriptions CHECKBOX
+        VALUENAME NoAddingSubscriptions
+        END PART
+
+        PART !!NoEditingSubscriptions CHECKBOX
+        VALUENAME NoEditingSubscriptions
+        END PART
+
+        PART !!NoRemovingSubscriptions CHECKBOX
+        VALUENAME NoRemovingSubscriptions
+        END PART
+
+        PART !!NoChannelLogging CHECKBOX
+        VALUENAME NoChannelLogging
+        END PART
+
+        PART !!NoManualUpdates CHECKBOX
+        VALUENAME NoManualUpdates
+        END PART
+        PART !!NoManualUpdates1 TEXT END PART
+
+        PART !!NoScheduledUpdates CHECKBOX
+        VALUENAME NoScheduledUpdates
+        END PART
+
+        PART !!NoUnattendedDialing CHECKBOX
+        VALUENAME NoUnattendedDialing
+        END PART
+        
+	PART !!NoSubscriptionPasswords CHECKBOX
+	VALUENAME NoSubscriptionPasswords
+	END PART
+
+        PART !!NoChannelContent CHECKBOX
+        VALUENAME NoChannelContent
+        END PART
+	PART !!NoChannelContent1 TEXT END PART
+        
+        PART !!NoSubscriptionContent CHECKBOX
+        VALUENAME NoSubscriptionContent
+        END PART
+        PART !!NoSubscriptionContent1 TEXT END PART
+        
+        PART !!NoEditingScheduleGroups CHECKBOX
+        VALUENAME NoEditingScheduleGroups
+        END PART
+
+    END POLICY
+END CATEGORY
+
+
+[strings]
+GeneralTab = "Γενικά"
+RestrictHomePage = "Απενεργοποίηση αλλαγής ρυθμίσεων κεντρικής σελίδας"
+RestrictCache = "Απενεργοποίηση αλλαγής ρυθμίσεων cache"
+RestrictHistory = "Απενεργοποίηση αλλαγής ρυθμίσεων Ιστορικού"
+RestrictColors = "Απενεργοποίηση αλλαγής ρυθμίσεων χρωμάτων"
+RestrictLinks = "Απενεργοποίηση αλλαγής ρυθμίσεων χρωμάτων σύνδεσης"
+RestrictFonts = "Απενεργοποίηση αλλαγής ρυθμίσεων γραμματοσειράς"
+RestrictLanguages = "Απενεργοποίηση αλλαγής ρυθμίσεων γλώσσας"
+RestrictAccessibility = "Απενεργοποίηση αλλαγής ρυθμίσεων για άτομα με ειδικές ανάγκες"
+
+Security = "Ασφάλεια"
+PolicyName = "Ρυθμίσεις καρτέλας ασφαλείας"
+Security_HKLM_only = "Χρήση ΜΟΝΟ των ρυθμίσεων του υπολογιστή για ζώνες ασφαλείας"
+Security_options_edit = "Δεν επιτρέπεται στους χρήστες η αλλαγή των πολιτικών για καμία ζώνη ασφαλείας"
+Security_zones_map_edit = "Δεν επιτρέπεται στους χρήστες η προσθήκη/διαγραφή τοποθεσιών από μια ζώνη ασφαλείας"
+
+ContentTab = "Περιεχόμενο"
+RestrictRatings = "Απενεργοποίηση αλλαγής ρυθμίσεων προβολής"
+RestrictCertificates = "Απενεργοποίηση αλλαγής ρυθμίσεων των πιστοποιητικών"
+RestrictProfiles = "Απενεργοποίηση αλλαγής ρυθμίσεων του 'Βοηθού Προφίλ'"
+RestrictWallet = "Απενεργοποίηση αλλαγής ρυθμίσεων του 'Microsoft Wallet'"
+
+ConnectionTab = "Σύνδεση"
+RestrictConnectionWizard = "Απενεργοποίηση εκτέλεσης του 'Οδηγού σύνδεσης'"
+RestrictConnectionSettings = "Απενεργοποίηση αλλαγής ρυθμίσεων της σύνδεσης"
+RestrictProxy = "Απενεργοποίηση αλλαγής ρυθμίσεων του διακομιστή μεσολάβησης"
+RestrictAutoconfig = "Απενεργοποίηση αλλαγής ρυθμίσεων των αυτόματων παραμέτρων"
+
+ProgramsTab = "Προγράμματα"
+RestrictMessaging = "Απενεργοποίηση αλλαγής ρυθμίσεων της 'Ανταλλαγής μηνυμάτων'"
+RestrictCalendarContact = "Απενεργοποίηση αλλαγής ρυθμίσεων του Ημερολογίου και Επαφών"
+RestrictCheckBrowser = "Απενεργοποίηση αλλαγής ελέγχου αν ο Internet Explorer"
+RestrictCheckBrowser1 = "       είναι το προεπιλεγμένο πρόγραμμα ανάγνωσης"
+
+AdvancedTab = "Για προχωρημένους"
+RestrictAdvanced = "Απενεργοποίηση αλλαγής ρυθμίσεων της καρτέλας 'Για προχωρημένους'"
+
+CodeDownload = "Λήψη κώδικα"
+SearchPath = "Διαδρομή αναζήτησης στο Internet"
+Path = "Διαδρομή"
+DefaultSearchPath = "CODEBASE;<http://activex.microsoft.com/objects/ocget.dll>"
+
+sz_Channels = "Ρυθμίσεις καναλιών"
+NoChannelUI = "Απενεργοποίηση καναλιού UI"
+NoAddingChannels = "Απενεργοποιεί την προσθήκη και εγγραφή σε κανάλια"
+NoEditingChannels = "Απενεργοποιεί την επεξεργασία των ιδιοτήτων και εγγραφών καναλιού"
+NoRemovingChannels = "Απενεργοποιεί την αφαίρεση καναλιών και εγγραφών στα κανάλια"
+NoAddingSubscriptions = "Απενεργοποιεί τις εγγραφές προσθήκης τοποθεσίας"
+NoEditingSubscriptions = "Απενεργοποιεί τις εγγραφές επεξεργασίας τοποθεσίας"
+NoRemovingSubscriptions = "Απενεργοποιεί τις εγγραφές κατάργησης τοποθεσίας"
+NoChannelLogging = "Απενεργοποιεί την σύνδεση στα κανάλια"
+NoManualUpdates = "Απενεργοποιεί την '’μεση ενημέρωση' και την 'Ενημέρωση όλων' για τα κανάλια"
+NoManualUpdates1 = "       και εγγραφές"
+NoScheduledUpdates = "Απενεργοποιεί όλες τις προγραμματισμένες εγγραφές καναλιών και τοποθεσιών"
+NoUnattendedDialing = "Απενεργοποιεί κλήσεις εγγραφών χωρίς παρακολούθηση"
+NoSubscriptionPasswords = "Απενεργοποίηση αποθήκευσης του κωδικού πρόσβασης στη μνήμη cache για εγγραφές σε κανάλια και τοποθεσίες"
+NoChannelContent = "Απενεργοποίηση λήψης του περιεχόμενου εγγραφής των καναλιών"
+NoChannelContent1 = "       η αλλαγή ειδοποίησης θα λειτουργεί"
+NoSubscriptionContent = "Απενεργοποίηση λήψης του περιεχόμενου εγγραφής των τοποθεσιών"
+NoSubscriptionContent1 = "       η αλλαγή ειδοποίησης θα λειτουργεί"
+NoEditingScheduleGroups = "Απενεργοποιεί τροποποίηση και δημιουργία συνόλων χρονοδιαγράμματος"
+
+IEAK_Title = Περιορισμοί Internet
+IEAK_DescriptionTitle = Περιορισμοί Internet
+IEAK_Description1 = Αυτό επιτρέπει τον διαχειριστή να καθορίσει περιορισμούς σε στοιχεία των ιδιοτήτων του Internet στον Πίνακα Ελέγχου.
+IEAK_Description2 = Τα κανάλια μπορούν επίσης να περιοριστούν με αυτές τις ρυθμίσεις. Αυτές οι ρυθμίσεις σας επιτρέπουν να απενεργοποιήσετε την προσθήκη, επεξεργασία ή αφαίρεση κάθε επιλογής των καναλιών.
+IEAK_Description3 = Για να ορίσετε τη διαδρομή αναζήτησης του κώδικα λήψης, πληκτρολογήστε μια σειρά από διευθύνσεις URL για να αναζητήσετε για κώδικα ActiveX ή Java ο οποίος χρειάζεται για την προβολή μιας σελίδας HTML.
+IEAK_Description4 = Παράδειγμα: CODEBASE	;<http://activex.microsoft.com/objects/ocget.dll> would mean, use the CODEBASE attribute in the HTML <OBJECT> tag, and if absent query http://activex.microsoft.com/objects/ocget.dll for location. For details, see the Internet Component Download documentation in the Internet Client SDK.
+
+[IEAK]
+Lock=1
+Roles=001
+NumOfDescLines=4
+Platform=111

@@ -1,0 +1,247 @@
+; shell.adm
+;
+;;;;;;;;;;;;;;;;;;
+CLASS USER ;;;;;;;
+;;;;;;;;;;;;;;;;;;
+
+CATEGORY !!Desktop
+KEYNAME Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+    POLICY !!DesktopSub
+        PART !!NoActiveDesktop CHECKBOX
+        VALUENAME NoActiveDesktop
+        END PART
+
+        PART !!NoActiveDesktopChanges CHECKBOX
+        VALUENAME NoActiveDesktopChanges
+        END PART
+
+        PART !!NoInternetIcon CHECKBOX
+        VALUENAME NoInternetIcon
+        END PART
+    END POLICY
+
+    POLICY !!sz_ActiveDesktop_Title
+	KEYNAME "Software\Microsoft\Windows\CurrentVersion\Policies\ActiveDesktop"
+		PART !!sz_ATC_NoComponents CHECKBOX
+			VALUENAME "NoComponents"
+		END PART
+		PART !!sz_ATC_DisableAdd CHECKBOX
+			VALUENAME "NoAddingComponents"
+		END PART
+		PART !!sz_ATC_DisableDel CHECKBOX
+			VALUENAME "NoDeletingComponents"
+		END PART
+        	
+		PART !!sz_ATC_DisableEdit CHECKBOX
+	        	VALUENAME "NoEditingComponents"
+		END PART
+		PART !!sz_ATC_DisableClose CHECKBOX
+			VALUENAME "NoClosingComponents"
+		END PART
+    END POLICY
+
+    POLICY !!sz_WallPaper_Title
+	KEYNAME "Software\Microsoft\Windows\CurrentVersion\Policies\ActiveDesktop"
+		PART !!sz_DWP_NoHTMLPaper CHECKBOX
+			VALUENAME "NoHTMLWallPaper"
+		END PART
+		PART !!sz_DWP_DisableChanges CHECKBOX
+			VALUENAME "NoChangingWallPaper"
+		END PART
+    END POLICY
+
+    POLICY !!sz_DeskBands_Title
+	KEYNAME "Software\Microsoft\Windows\CurrentVersion\Policies\ActiveDesktop"
+		PART !!sz_DB_DragDropClose CHECKBOX
+			VALUENAME "NoCloseDragDropBands"
+		END PART
+		PART !!sz_DB_Moving CHECKBOX
+			VALUENAME "NoMovingBands"
+		END PART
+    END POLICY
+END CATEGORY
+
+
+CATEGORY !!StartMenu
+KEYNAME Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+    POLICY !!StartMenu
+
+        PART !!NoFavoritesMenu CHECKBOX
+        VALUENAME NoFavoritesMenu
+        END PART
+
+        PART !!NoFind CHECKBOX
+        VALUENAME NoFind
+        END PART
+
+        PART !!NoRun CHECKBOX
+        VALUENAME NoRun
+        END PART
+
+	PART !!NoSetActiveDesktop CHECKBOX
+	VALUENAME NoSetActiveDesktop
+	END PART
+
+	PART !!NoChangeStartMenu CHECKBOX
+	VALUENAME NoChangeStartMenu
+	END PART
+
+	PART !!NoFolderOptions CHECKBOX
+	VALUENAME NoFolderOptions
+	END PART
+
+        PART !!NoRecentDocsMenu CHECKBOX
+        VALUENAME NoRecentDocsMenu
+        END PART
+
+        PART !!NoRecentDocsHistory CHECKBOX
+        VALUENAME NoRecentDocsHistory
+        END PART
+
+        PART !!ClearRecentDocsOnExit CHECKBOX
+        VALUENAME ClearRecentDocsOnExit
+        END PART
+
+        PART !!NoLogoff CHECKBOX
+        VALUENAME NoLogoff
+        END PART
+
+        PART !!NoSetTaskbar CHECKBOX
+        VALUENAME NoSetTaskbar
+        END PART
+
+        PART !!NoTrayContextMenu CHECKBOX
+        VALUENAME NoTrayContextMenu
+        END PART
+
+        PART !!NoStartMenuSubFolders CHECKBOX
+        VALUENAME NoStartMenuSubFolders
+        END PART
+
+        PART !!WindowsNTOnly TEXT END PART
+
+        PART !!NoCommonGroups CHECKBOX
+        VALUENAME NoCommonGroups
+        END PART
+
+        KEYNAME Software\Microsoft\Windows\CurrentVersion\Policies
+        PART !!MemCheckBoxInRunDlg CHECKBOX
+        VALUENAME MemCheckBoxInRunDlg
+        END PART
+    END POLICY
+END CATEGORY
+
+CATEGORY !!Shell
+KEYNAME Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+    POLICY !!Shell
+        PART !!ClassicShell CHECKBOX
+        VALUENAME ClassicShell
+        END PART
+
+        PART !!NoFileMenu CHECKBOX
+        VALUENAME NoFileMenu
+        END PART
+
+        PART !!NoViewContextMenu CHECKBOX
+        VALUENAME NoViewContextMenu
+        END PART
+
+        PART !!EnforceShellExtensionSecurity CHECKBOX
+        VALUENAME EnforceShellExtensionSecurity
+        END PART
+
+        PART !!LinkResolveIgnoreLinkInfo CHECKBOX
+        VALUENAME LinkResolveIgnoreLinkInfo
+        END PART
+
+        PART !!NoDrives CHECKBOX
+        VALUENAME NoDrives
+        VALUEON NUMERIC 67108863    ; low 26 bits on (1 bit per drive)
+        END PART
+
+        PART !!NoNetConnectDisconnect CHECKBOX
+        VALUENAME NoNetConnectDisconnect
+        END PART
+
+    END POLICY
+END CATEGORY
+
+CATEGORY !!System
+KEYNAME Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+    POLICY !!System
+        PART !!Windows9xOnly TEXT END PART
+        PART !!NoRealMode CHECKBOX
+        KEYNAME Software\Microsoft\Windows\CurrentVersion\Policies\WinOldApp
+        VALUENAME NoRealMode
+        END PART
+    END POLICY
+END CATEGORY
+
+
+[strings]
+Explorer = "Εξερεύνηση"
+Desktop = "Επιφάνεια εργασίας"
+DesktopSub = "Περιορισμοί Επιφάνειας εργασίας"
+StartMenu = "Μενού 'Έναρξη'"
+Shell = "Κέλυφος"
+Printers = "Εκτυπωτές"
+System = "Σύστημα"
+Windows9xOnly = "-------- Μόνο Windows 9x --------"
+WindowsNTOnly = "-------- Μόνο Windows NT --------"
+NoActiveDesktop = "Απενεργοποίηση του Active Desktop"
+NoActiveDesktopChanges = "Δεν επιτρέπονται αλλαγές στο Active Desktop"
+NoInternetIcon = "Απόκρυψη του εικονιδίου του Internet Explorer"
+NoFavoritesMenu = "Αφαίρεση του μενού 'Αγαπημένα' από το μενού 'Έναρξη'"
+NoFind = "Αφαίρεση του μενού 'Εύρεση' από το μενού 'Έναρξη'"
+NoRun = "Αφαίρεση του μενού 'Εκτέλεση' από το μενού 'Έναρξη'"
+NoSetActiveDesktop = "Αφαίρεση του στοιχείου Active Desktop από το μενού 'Ρυθμίσεις'"
+NoChangeStartMenu = "Απενεργοποίηση των μενού περιεχομένων μεταφοράς και απόθεσης στο μενού 'Έναρξη'"
+NoFolderOptions = "Αφαίρεση του μενού 'Επιλογές φακέλων' από το μενού 'Ρυθμίσεις'"
+NoRecentDocsMenu = "Αφαίρεση του μενού 'Έγγραφα' από το μενού 'Έναρξη'"
+NoRecentDocsHistory = "Να μη διατηρείτε Ιστορικό για πρόσφατα ανοιγμένα έγγραφα"
+ClearRecentDocsOnExit = "Εκκαθάριση Ιστορικού από πρόσφατα ανοιγμένα έγγραφα"
+NoLogoff = "Απενεργοποίηση αποσύνδεσης"
+NoSetTaskbar = "Απενεργοποίηση αλλαγών στις ρυθμίσεις της 'Γραμμής εργασιών' και του μενού 'Έναρξης'"
+NoTrayContextMenu = "Απενεργοποίηση του μενού περιεχόμενων για την 'Γραμμή εργασιών'"
+NoStartMenuSubFolders = "Απόκρυψη φακέλων προσαρμοσμένων προγραμμάτων"
+NoCommonGroups = "Απόκρυψη των ομάδων κοινών προγραμμάτων στο μενού 'Έναρξη'"
+MemCheckBoxInRunDlg = "Προσθήκη πλαισίου ελέγχου διαλόγου της εντολής 'Εκτέλεση' για νέο χώρο μνήμης."
+ClassicShell = "Ενεργοποίηση τυπικού κελύφους"
+NoFileMenu = "Απενεργοποίηση του μενού αρχείων στους φακέλους του κελύφους"
+NoViewContextMenu = "Απενεργοποίηση του μενού περιεχόμενων στους φακέλους του κελύφους"
+EnforceShellExtensionSecurity = "Επιτρέπονται μόνο επεκτάσεις κελύφους που εγκρίθηκαν"
+LinkResolveIgnoreLinkInfo = "Να μην γίνεται εντοπισμός των συντομεύσεων του κελύφους κατά την περιήγηση"
+NoDrives = "Απόκρυψη των μονάδων δισκέτας στο 'Ο υπολογιστής μου'"
+NoNetConnectDisconnect = "Απενεργοποίηση συνδέσεων/αποσυνδέσεων δικτύου"
+NoRealMode = "Να μην επιτρέπεται η επανεκκίνηση σε λειτουργία MS-DOS"
+
+sz_Desktop_Title = "Ρυθμίσεις επιφάνειας εργασίας"
+
+;;;;;; Active Desktop Items
+sz_ActiveDesktop_Title = "Στοιχεία του Active Desktop"
+sz_ATC_NoComponents = "Απενεργοποίηση ΟΛΩΝ των στοιχείων της 'Επιφάνειας εργασίας'"
+sz_ATC_DisableAdd = "Απενεργοποίηση της προσθήκης στοιχείων της 'Επιφάνειας εργασίας'"
+sz_ATC_DisableDel = "Απενεργοποίηση της αφαίρεσης στοιχείων της 'Επιφάνειας εργασίας'"
+sz_ATC_DisableEdit = "Απενεργοποίηση της επεξεργασίας στοιχείων της 'Επιφάνειας εργασίας'"
+sz_ATC_DisableClose = "Απενεργοποίηση του κλεισίματος στοιχείων της 'Επιφάνειας εργασίας'"
+
+;;;;;; Desktop Wall Paper
+sz_WallPaper_Title = "Ρυθμίσεις ταπετσαρίας της 'Επιφάνειας εργασίας'"
+sz_DWP_NoHTMLPaper = "Χωρίς ταπετσαρία HTML"
+sz_DWP_DisableChanges = "Απενεργοποίηση αλλαγής της ταπετσαρίας"
+
+;;;;;; Desktop Bands
+sz_DeskBands_Title = "Ρυθμίσεις γραμμής εργαλείων της 'Επιφάνειας εργασίας'"
+sz_DB_DragDropClose = "Απενεργοποίηση της μεταφοράς, απόθεσης και κλείσιμο ΟΛΩΝ των γραμμών εργασιών"
+sz_DB_Moving = "Απενεργοποίηση αλλαγής μεγέθους ΟΛΩΝ των γραμμών εργαλείων"
+
+
+IEAK_Title = Επιφάνεια εργασίας Web
+IEAK_DescriptionTitle = Περιορισμοί της Επιφάνειας εργασίας Web
+IEAK_Description1 = Χρησιμοποιώντας τους περιορισμούς σε αυτό το αρχείο, μπορείτε να εμποδίσετε τις διάφορες αλληλεπιδράσεις των χρηστών με το κέλυφος του λειτουργικού συστήματος. Αυτοί οι περιορισμοί θα εφαρμοστούν για όλους τους υπολογιστές που θα εγκατασταθεί αυτό το πρόγραμμα.
+
+[IEAK]
+Lock=1
+Roles=001
+NumOfDescLines=1
+Platform=010

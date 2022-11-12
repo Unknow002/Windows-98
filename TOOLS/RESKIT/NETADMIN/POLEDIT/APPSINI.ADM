@@ -1,0 +1,20 @@
+CLASS MACHINE
+
+CATEGORY !!NetAppInst0  ; Network Install Applications
+KEYNAME Software\Microsoft\Windows\CurrentVersion
+        CATEGORY !!NetAppInst1
+                POLICY !!NetAppInst2
+                        PART !!NetAppInst3 EDITTEXT REQUIRED
+                        VALUENAME "AppInstallPath"
+                        END PART
+                        PART !!NetAppInst4 TEXT END PART
+                END POLICY
+        END CATEGORY
+END CATEGORY            ; Network Install Applications
+
+[strings]
+NetAppInst0 = "Εγκατάσταση δικτύου"
+NetAppInst1 = "Χρήση του APPS.INI για εγκατάσταση μέσω δικτύου."
+NetAppInst2 = "Ενεργοποίηση καρτέλας 'Εγκατάσταση δικτύου' στην 'Προσθαφαίρεση προγραμμάτων'."
+NetAppInst3 = "Διαδρομή δικτύου για το APPS.INI"
+NetAppInst4 = "Παράδειγμα: \\MyServer\MyShare\Apps.ini"

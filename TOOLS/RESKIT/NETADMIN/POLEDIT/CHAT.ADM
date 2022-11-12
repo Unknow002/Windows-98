@@ -1,0 +1,102 @@
+; chat.adm
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+CLASS USER   ;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+CATEGORY !!Chat
+KEYNAME "Software\Microsoft\Microsoft Comic Chat"
+
+	POLICY !!ServerList
+		PART !!ServerListName EDITTEXT REQUIRED
+			DEFAULT !!ServerListDefault
+			VALUENAME "ServerList"
+		END PART
+	END POLICY
+
+	POLICY !!IRCServer
+		PART !!IRCServerText EDITTEXT  REQUIRED
+			DEFAULT !!IRCServerTextDefault
+			VALUENAME "IRCServer"
+		END PART
+	END POLICY
+
+	POLICY !!IRCChannel
+		PART !!IRCChannelText EDITTEXT  REQUIRED
+			DEFAULT !!IRCChannelTextDefault
+			VALUENAME "IRCChannel"
+		END PART
+	END POLICY
+
+	POLICY !!Character
+		PART !!CharacterText EDITTEXT  REQUIRED
+			DEFAULT !!CharacterTextDefault
+			VALUENAME "Character"
+		END PART
+	END POLICY
+
+	POLICY !!Backdrop
+		PART !!BackdropText EDITTEXT  REQUIRED
+			DEFAULT !!BackdropTextDefault
+			VALUENAME "Backdrop"
+		END PART
+	END POLICY
+
+	POLICY !!Profile
+		PART !!ProfileText EDITTEXT  REQUIRED
+			DEFAULT !!ProfileTextDefault
+			VALUENAME "Profile"
+		END PART
+	END POLICY
+
+	POLICY !!ListRegistered
+		PART !!ListRegisteredText CHECKBOX
+			VALUENAME "ListRegistered"
+			DEFCHECKED
+			VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+		END PART
+	END POLICY
+END CATEGORY
+
+
+[strings]
+
+Chat = "Microsoft Chat"
+ServerList = "Αλλαγή της λίστας διακομιστών συνομιλίας"
+ServerListName = "Λίστα διακομιστών"
+ServerListDefault = "comicsrv1.microsoft.com;comisrv2.microsoft.com;comicsrv3.microsoft.com"
+
+IRCServer = "Αλλαγή προεπιλεγμένου διακομιστή συνομιλίας"
+IRCServerText = "Προεπιλεγμένος διακομιστής συνομιλίας"
+IRCServerTextDefault = "comicsrv.microsoft.com"
+
+IRCChannel = "Αλλαγή του προεπιλεγμένου καναλιού συνομιλίας"
+IRCChannelText = "Προεπιλεγμένο κανάλι συνομιλίας"
+IRCChannelTextDefault = "#Comic_Chat"
+
+Character = "Αλλαγή προεπιλεγμένου χαρακτήρα"
+CharacterText = "Προεπιλεγμένος χαρακτήρας"
+CharacterTextDefault = "TIKI"
+
+Backdrop = "Αλλαγή προεπιλεγμένης εικόνας φόντου"
+BackdropText = "Προεπιλεγμένο φόντο"
+BackdropTextDefault = "Πεδίο"
+
+Profile = "Αλλαγή προφίλ χρήστη για το Microsoft Chat"
+ProfileText = "Κείμενο προφίλ χρήστη"
+ProfileTextDefault = "Αυτό το άτομο είναι πολύ τεμπέλης για να δημιουργήσει μια εγγραφή προφίλ."
+
+ListRegistered = "Ενεργοποίηση επιλογής για προβολή μόνο καταχωρημένων καναλιών στη λίστα καναλιών"
+ListRegisteredText = "Προβολή μόνο καταχωρημένων καναλιών στη λίστα καναλιών"
+
+IEAK_Title = Microsoft Chat
+IEAK_DescriptionTitle = Ρυθμίσεις του Microsoft Chat
+IEAK_Description1 = Το Microsoft Chat, το οποίο παλιότερα ονομαζόταν Comic Chat, είναι ένα νέο είδος προγράμματος συνομιλίας, το οποίο συνδυάζει συμβατική συνομιλία βασισμένη σε κείμενο με πρωτοποριακές δυνατότητες γραφικών. Με το Microsoft Chat, μπορείτε να επικοινωνείτε με άλλους με αναρίθμητους τρόπους, να ανταλλάσσετε ιδέες και να διασκεδάζετε γνωρίζοντας νέους φίλους.
+IEAK_Description2 = Με αυτές τις ρυθμίσεις, μπορείτε να προκαθορίσετε προεπιλεγμένες τιμές για τους χρήστες σας. Αυτές οι ρυθμίσεις περιλαμβάνουν προεπιλεγμένο διακομιστή, χαρακτήρα και ρυθμίσεις προφίλ. Ανατρέξτε στα εγχειρίδια του Microsoft Chat για πληροφορίες σχετικά με αυτές τις ρυθμίσεις.
+
+[IEAK]
+Lock=1
+Roles=111
+NumOfDescLines=2
+Platform=010

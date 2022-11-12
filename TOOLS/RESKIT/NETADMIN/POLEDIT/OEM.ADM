@@ -1,0 +1,97 @@
+; oe.adm
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+CLASS USER ;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+
+CATEGORY !!OutlookExpress
+	KEYNAME "Software\Microsoft\Outlook Express"
+	POLICY !!Zones
+		PART !!RestSite CHECKBOX 
+		VALUENAME "Security Zone"
+		VALUEON NUMERIC 4 
+		VALUEOFF NUMERIC 3
+		END PART
+		PART !!RestSite1 TEXT END PART
+	END POLICY
+
+	POLICY !!HTMLMail
+		PART !!DisableHTMLinMail CHECKBOX 
+		KEYNAME "Software\Microsoft\Outlook Express\Mail"
+		VALUENAME "Message Send HTML"
+		VALUEON NUMERIC 0 
+		VALUEOFF NUMERIC 1
+		END PART
+		PART !!DisableHTMLinMail1 TEXT END PART
+
+		PART !!DisablePlaininNews CHECKBOX 
+	  	KEYNAME "Software\Microsoft\Outlook Express\News"
+		VALUENAME "Message Send HTML"
+		VALUEON NUMERIC 1
+		VALUEOFF NUMERIC 0
+		END PART
+		PART !!DisablePlaininNews1 TEXT END PART
+	END POLICY
+END CATEGORY
+
+CATEGORY !!OENav
+	KEYNAME "Software\Microsoft\Outlook Express\"
+	POLICY !!Navigation
+		PART !!OutlookBar CHECKBOX 
+		VALUENAME "OutBar"
+		VALUEON NUMERIC 1 
+		VALUEOFF NUMERIC 0
+		END PART
+
+		PART !!FolderView CHECKBOX 
+		VALUENAME "Tree"
+		VALUEON NUMERIC 0 
+		VALUEOFF NUMERIC 1
+		END PART
+
+		PART !!FolderBar CHECKBOX 
+		VALUENAME "FolderBar"
+		VALUEON NUMERIC 1 
+		VALUEOFF NUMERIC 0
+		END PART
+		PART !!FolderBar1 TEXT END PART
+
+		PART !!TipofDay CHECKBOX 
+		VALUENAME "Tip of the Day"
+		VALUEON NUMERIC 0 
+		VALUEOFF NUMERIC 1
+		END PART
+	END POLICY
+END CATEGORY
+
+[strings]
+OutlookExpress = "Γενικές ρυθμίσεις"
+OENav = "Προσαρμογή προβολής"
+ServerSettings = "Ρυθμίσεις αλληλογραφίας, συζητήσεων και διακομιστή καταλόγων"
+Zones = "Ζώνες ασφαλείας αλληλογραφίας και συζητήσεων"
+RestSite = "Τοποθέτηση της αλληλογραφίας και συζητήσεων στη ζώνη ελεγχόμενων τοποθεσιών"
+RestSite1 = "      (αντί για τη ζώνη του Internet)"
+HTMLMail = "Ρυθμίσεις σύνθεσης αλληλογραφίας και συζητήσεων HTML"
+DisableHTMLinMail = "Αλληλογραφία: Ορισμός ως προεπιλεγμένης, την σύνθεση μηνύματος απλού κειμένου"
+DisableHTMLinMail1 = "      για μηνύματα αλληλογραφίας (αντί για αλληλογραφία HTML)"
+DisablePlaininNews = "Συζητήσεις: Ορισμός ως προεπιλεγμένης, την σύνθεση μηνύματος HTML"
+DisablePlaininNews1 = "      για καταχωρήσεις συζητήσεων (αντί για απλό κείμενο)"
+Navigation = "Στοιχεία περιήγησης καταλόγων και μηνυμάτων"
+OutlookBar = "Ενεργοποίηση της γραμμής Outlook"
+FolderView = "Απενεργοποίηση της λίστας καταλόγων (προβολή του δέντρου καταλόγων)"
+FolderBar = "Ενεργοποίηση της γραμμής καταλόγων"
+FolderBar1 = "      (οριζόντια γραμμή που προβάλλει το όνομα του επιλεγμένου καταλόγου)"
+TipofDay = "Απενεργοποίηση της 'Συμβουλής της ημέρας'"
+
+IEAK_Title = Outlook Express
+IEAK_DescriptionTitle = Ρυθμίσεις πολιτικών και περιορισμοί του Outlook Express
+IEAK_Description1 = Το Outlook Express σας παρέχει πολιτικές συστήματος που έχουν σχεδιαστεί για να μειώνουν το κόστος υποστήριξης αλληλογραφίας και συζητήσεων.
+IEAK_Description2 = Το Outlook Express χρησιμοποιεί τις ζώνες ασφαλείας του Internet Explorer4.0. Κανονικά, όλοι οι χρήστες αλληλογραφίας τοποθετούνται στην ζώνη του Internet, όπου γίνεται ερώτηση στους χρήστες πριν εκτελεστεί πιθανόν επικίνδυνο περιεχόμενο. Όμως, μπορείτε να τοποθετήσετε την αλληλογραφία και συζητήσεις του Outlook Express στην ζώνη ελεγχόμενων τοποθεσιών. Οι προεπιλεγμένες ρυθμίσεις για την ζώνη ελεγχόμενων τοποθεσιών απαγορεύουν σχεδόν πάντα την εκτέλεση του ενεργού περιεχομένου (ο χρήστης θα προστατεύεται από περιεχόμενο χωρίς ερωτήσεις).
+IEAK_Description3 = Από προεπιλογή, το Outlook Express συνθέτει μηνύματα αλληλογραφίας σε HTML και μηνύματα συζητήσεων σε απλό κείμενο. Σας προτείνεται να διατηρήσετε αυτές τις ρυθμίσεις.
+IEAK_Description4 = Το Outlook Express σας επιτρέπει να προσαρμόσετε την προεπιλεγμένη σας προβολή για συνέπεια με τις ρυθμίσεις άλλων προγραμμάτων σχετικών με τους χρήστες σας.
+
+[IEAK]
+Lock=1
+Roles=011
+NumOfDescLines=4
+Platform=111

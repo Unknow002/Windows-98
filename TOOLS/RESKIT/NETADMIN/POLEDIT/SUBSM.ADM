@@ -1,0 +1,89 @@
+; subs.adm
+;
+;;;;;;;;;;;;;;;;;;;;;;
+CLASS USER ;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+
+CATEGORY !!sz_Channels
+KEYNAME "Software\Policies\Microsoft\Internet Explorer\Infodelivery\Restrictions"
+    POLICY !!sz_Channels
+        PART !!MaxSubscriptionSize TEXT END PART
+	PART !!MaxSubscriptionSize1 NUMERIC SPIN 250
+        VALUENAME MaxSubscriptionSize
+        END PART
+        
+        PART !!MaxChannelSize TEXT END PART
+        PART !!MaxChannelSize1 NUMERIC SPIN 250
+        VALUENAME MaxChannelSize
+        END PART
+        
+        PART !!MaxSubscriptionCount TEXT END PART
+	PART !!MaxSubscriptionCount1 NUMERIC SPIN 5
+        VALUENAME MaxSubscriptionCount
+        END PART
+        
+        PART !!MinUpdateInterval TEXT END PART
+        PART !!MinUpdateInterval1 NUMERIC SPIN 60
+        VALUENAME MinUpdateInterval
+        END PART
+        
+        PART !!UpdateExcludeBegin TEXT END PART
+        PART !!UpdateExcludeBegin1 TEXT END PART
+        PART !!UpdateExcludeBegin2 NUMERIC SPIN 60
+        MAX 1440
+        VALUENAME UpdateExcludeBegin
+        END PART
+        
+        PART !!UpdateExcludeEnd TEXT END PART
+        PART !!UpdateExcludeEnd1 TEXT END PART
+        PART !!UpdateExcludeEnd2 NUMERIC SPIN 60
+        MAX 1440
+        VALUENAME UpdateExcludeEnd
+        END PART
+
+        PART !!MaxWebcrawlLevels DROPDOWNLIST
+        VALUENAME MaxWebcrawlLevels
+        ITEMLIST
+        	NAME !!MaxWebcrawlDepth0 VALUE NUMERIC 1
+        	NAME !!MaxWebcrawlDepth1 VALUE NUMERIC 2
+        	NAME !!MaxWebcrawlDepth2 VALUE NUMERIC 3
+        	NAME !!MaxWebcrawlDepth3 VALUE NUMERIC 4
+        END ITEMLIST
+        END PART
+
+    END POLICY
+END CATEGORY
+
+[strings]
+sz_Channels = "Εγγραφές"
+
+MaxSubscriptionSize = "Μέγιστος αριθμός KB για εγγραφή τοποθεσίας"
+MaxSubscriptionSize1 = "               (το μηδέν απενεργοποιεί τον περιορισμό)"
+MaxChannelSize = "Μέγιστος αριθμός KB για εγγραφή καναλιού"
+MaxChannelSize1 = "               (το μηδέν απενεργοποιεί τον περιορισμό)"
+MaxSubscriptionCount = "Μέγιστος αριθμός εγκατεστημένων εγγραφών τοποθεσιών"
+MaxSubscriptionCount1 = "               (το μηδέν απενεργοποιεί τον περιορισμό)"
+MinUpdateInterval = "Ελάχιστος αριθμός λεπτών μεταξύ των προγραμματισμένων"
+MinUpdateInterval1 = "ενημερώσεων των εγγραφών. (το μηδέν απενεργοποιεί τον περιορισμό)"
+UpdateExcludeBegin = "Έναρξη του χρονικού περιθωρίου στο οποίο εμποδίζονται οι προγραμματισμένες"
+UpdateExcludeBegin1 = "ενημερώσεων των εγγραφών. Μετρημένο σε λεπτά από τα μεσάνυχτα"
+UpdateExcludeBegin2 = "               (το μηδέν απενεργοποιεί τον περιορισμό)"
+UpdateExcludeEnd = "Τέλος του χρονικού περιθωρίου στο οποίο εμποδίζονται οι προγραμματισμένες ενημερώσεων των εγγραφών."
+UpdateExcludeEnd1 = "Μετρημένο σε λεπτά από τα μεσάνυχτα"
+UpdateExcludeEnd2 = "               (το μηδέν απενεργοποιεί τον περιορισμό)"
+MaxWebcrawlLevels = "Μέγιστο εσωτερικό επίπεδο περιήγησης της τοποθεσίας εγγραφής."
+MaxWebcrawlDepth0 = "0"
+MaxWebcrawlDepth1 = "1"
+MaxWebcrawlDepth2 = "2"
+MaxWebcrawlDepth3 = "3"
+
+IEAK_Title = Εγγραφές
+IEAK_DescriptionTitle = Ρυθμίσεις εγγραφών
+IEAK_Description1 = Οι περιορισμοί σε αυτές τις ρυθμίσεις εγγραφών σας επιτρέπουν να ελέγχετε το σύνολο των πληροφοριών που λαμβάνετε. Αυτές οι ρυθμίσεις σας επιτρέπουν να περιορίσετε το εύρος ζώνης με πολλούς τρόπους. Ίσως θέλετε να χρησιμοποιείτε αυτές τις ρυθμίσεις αν σας ενδιαφέρει το φορτίο του διακομιστή.
+IEAK_Description2 = Το μέγιστο εσωτερικό επίπεδο περιήγησης της τοποθεσίας εγγραφής ελέγχει σε πόσα επίπεδα, το βοηθητικό πρόγραμμα ενημέρωσης από το δίκτυο, θα αναζητήσει για νέες πληροφορίες. Αυτή η ρύθμιση απαιτεί προσεχτική χρήση, διότι μια υψηλή τιμή ρύθμισης μπορεί να κάνει το μέγεθος των πληροφοριών που λαμβάνονται πολύ μεγάλο.
+
+[IEAK]
+Lock=1
+Roles=001
+NumOfDescLines=2
+Platform=111
